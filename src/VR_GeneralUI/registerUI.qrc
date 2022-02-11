@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="register">
+    <file>register_cancel.jpg</file>
+    <file>register_confirm.jpg</file>
+    <file>register.jpg</file>
+  </qresource>
+</RCC>

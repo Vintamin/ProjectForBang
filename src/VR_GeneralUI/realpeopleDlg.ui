@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>realpeoplewidget</class>
+ <widget class="QWidget" name="realpeoplewidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>421</width>
+    <height>286</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>421</width>
+    <height>286</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>421</width>
+    <height>286</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>井下实时人员</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="maximumSize">
+            <size>
+             <width>70</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>井下总人数：</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="peopleCountLabel">
+           <property name="text">
+            <string>0</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_3">
+           <property name="text">
+            <string>时间：</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="timeLabel">
+           <property name="text">
+            <string>——:——</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QTableWidget" name="peopleTableWidget">
+       <property name="frameShape">
+        <enum>QFrame::Box</enum>
+       </property>
+       <property name="editTriggers">
+        <set>QAbstractItemView::NoEditTriggers</set>
+       </property>
+       <property name="selectionMode">
+        <enum>QAbstractItemView::SingleSelection</enum>
+       </property>
+       <property name="selectionBehavior">
+        <enum>QAbstractItemView::SelectRows</enum>
+       </property>
+       <property name="gridStyle">
+        <enum>Qt::SolidLine</enum>
+       </property>
+       <attribute name="horizontalHeaderVisible">
+        <bool>true</bool>
+       </attribute>
+       <attribute name="horizontalHeaderCascadingSectionResizes">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderDefaultSectionSize">
+        <number>80</number>
+       </attribute>
+       <attribute name="horizontalHeaderMinimumSectionSize">
+        <number>21</number>
+       </attribute>
+       <attribute name="horizontalHeaderStretchLastSection">
+        <bool>true</bool>
+       </attribute>
+       <attribute name="verticalHeaderVisible">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="verticalHeaderDefaultSectionSize">
+        <number>30</number>
+       </attribute>
+       <attribute name="verticalHeaderHighlightSections">
+        <bool>true</bool>
+       </attribute>
+       <attribute name="verticalHeaderMinimumSectionSize">
+        <number>21</number>
+       </attribute>
+       <attribute name="verticalHeaderStretchLastSection">
+        <bool>true</bool>
+       </attribute>
+       <column>
+        <property name="text">
+         <string>序号</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>名称</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>类别</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>进入时间</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>离开时间</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>基站号</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>卡号</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+ <slots>
+  <slot>slotDoubleClick(QModelIndex)</slot>
+ </slots>
+</ui>

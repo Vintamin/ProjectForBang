@@ -1,0 +1,21 @@
+﻿生成启动时间为 15-9-17 21:22:39。
+     1>项目“E:\code2.0\jni\src\VR_Kml\VR_Kml.vcxproj”在节点 5 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\VR_Kml.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\code2.0\\bin\Debug\VR_Kml_d.dll" /INCREMENTAL /NOLOGO /LIBPATH:E:\code2.0\\bin\Debug\ /LIBPATH:E:\code2.0\\jni\lib\ogre\debug /LIBPATH:E:\code2.0\\jni\lib\boost VR_Core_d.lib OgreMain_d.lib VR_MathEngine_d.lib VR_SpatialInterface_d.lib VR_SpatialEngine_d.lib VR_SceneControl_d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\VR_Kml_d.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\code2.0\bin\Debug\VR_Kml_d.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\code2.0\\bin\Debug\VR_Kml_d.lib" /MACHINE:X86 /DLL Debug\kmlobject.obj
+         Debug\tourobject.obj
+            正在创建库 E:\code2.0\\bin\Debug\VR_Kml_d.lib 和对象 E:\code2.0\\bin\Debug\VR_Kml_d.exp
+         VR_Kml.vcxproj -> E:\code2.0\\bin\Debug\VR_Kml_d.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"E:\code2.0\\bin\Debug\VR_Kml_d.dll.manifest" /manifest Debug\VR_Kml_d.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\VR_Kml.unsuccessfulbuild”。
+         正在对“Debug\VR_Kml.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\code2.0\jni\src\VR_Kml\VR_Kml.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.72

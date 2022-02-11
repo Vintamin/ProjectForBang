@@ -1,0 +1,37 @@
+﻿生成启动时间为 15-9-15 10:37:07。
+     1>项目“E:\code2.0\jni\src\VR_Plugins\VRControl\VRControl.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\VRSceneControlWidget.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Moc'ing vrcontrol.h...
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\4.8.6\include /I.\GeneratedFiles\Release /IC:\Qt\4.8.6\include\QtDesigner /IC:\Qt\4.8.6\include\QtCore /IC:\Qt\4.8.6\include\QtGui /IC:\Qt\4.8.6\include\QtXml /IE:\code2.0\\jni\include /IE:\code2.0\\jni\include\boost /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_PLUGIN /D QT_NO_DEBUG /D NDEBUG /D QVRSCENECONTROL_EXPORT_WIDGETS /D QT_CORE_LIB /D QT_GUI_LIB /D QT_XML_LIB /D _WINDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Release\moc_vrcontrol.cpp vrcontrol.cpp vrcontrolplugin.cpp
+         moc_vrcontrol.cpp
+     1>E:\code2.0\\jni\include\vrmine/vr_core/coredefine.h(80): warning C4091: “typedef ”: 没有声明变量时忽略“point_2D”的左侧
+     1>E:\code2.0\\jni\include\vrmine\vr_spatialinterface\parameter.h(15): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+         vrcontrol.cpp
+     1>E:\code2.0\\jni\include\vrmine/vr_core/coredefine.h(80): warning C4091: “typedef ”: 没有声明变量时忽略“point_2D”的左侧
+     1>E:\code2.0\\jni\include\vrmine\vr_spatialinterface\parameter.h(15): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>vrcontrol.cpp(153): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+         vrcontrolplugin.cpp
+     1>E:\code2.0\\jni\include\vrmine/vr_core/coredefine.h(80): warning C4091: “typedef ”: 没有声明变量时忽略“point_2D”的左侧
+     1>E:\code2.0\\jni\include\vrmine\vr_spatialinterface\parameter.h(15): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>vrcontrolplugin.cpp(13): warning C4138: 在注释外找到“*/”
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\code2.0\\bin\Release\\VRSceneControlWidget.dll" /NOLOGO /LIBPATH:C:\Qt\4.8.6\lib /LIBPATH:E:\code2.0\\bin\Release\ /LIBPATH:E:\code2.0\\jni\lib\ogre\release /LIBPATH:E:\code2.0\\jni\lib\boost qtmain.lib QtDesigner4.lib QtCore4.lib QtGui4.lib QtXml4.lib VR_SceneControl.lib VR_SpatialEngine.lib OgreMain.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\VRSceneControlWidget.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"E:\code2.0\bin\Release\VRSceneControlWidget.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\code2.0\\bin\Release\VRSceneControlWidget.lib" /MACHINE:X86 /DLL Release\moc_vrcontrol.obj
+         Release\moc_vrcontrolplugin.obj
+         Release\vrcontrol.obj
+         Release\vrcontrolplugin.obj
+            正在创建库 E:\code2.0\\bin\Release\VRSceneControlWidget.lib 和对象 E:\code2.0\\bin\Release\VRSceneControlWidget.exp
+         VRControl.vcxproj -> E:\code2.0\\bin\Release\VRSceneControlWidget.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\code2.0\\bin\Release\\VRSceneControlWidget.dll;#2" /manifest Release\VRSceneControlWidget.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\VRSceneControlWidget.unsuccessfulbuild”。
+         正在对“Release\VRSceneControlWidget.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\code2.0\jni\src\VR_Plugins\VRControl\VRControl.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:27.39

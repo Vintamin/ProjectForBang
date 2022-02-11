@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DB751B6D-6474-4137-8EEC-F667D9BDE412}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>VR_SpatialInterface</RootNamespace>
+    <ProjectName>VR_SpatialInterface</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)\bin\$(Configuration)\</OutDir>
+    <TargetName>$(ProjectName)_d</TargetName>
+    <EmbedManifest>false</EmbedManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)\bin\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;VR_SPATIALINTERFACE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\jni\include;$(SolutionDir)\jni\include\boost</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(OutDir);$(SolutionDir)\jni\lib\boost;$(SolutionDir)\jni\lib\ogre\debug</AdditionalLibraryDirectories>
+      <AdditionalDependencies>VR_Core_d.lib;OgreMain_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;VR_SPATIALINTERFACE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\jni\include;$(SolutionDir)\jni\include\boost</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(OutDir);$(SolutionDir)\jni\lib\boost;$(SolutionDir)\jni\lib\ogre\release</AdditionalLibraryDirectories>
+      <AdditionalDependencies>OgreMain.lib;VR_DatabaseEngine.lib;VR_Core.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\vrmine\vr_spatialinterface\event\eventobject.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialinterface\factory\igeofactory.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialinterface\igeomeshcreator.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialinterface\igeometry.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialinterface\igeoobject.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialinterface\igeoproperty.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialinterface\ilayer.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialinterface\irenderableobject.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialinterface\iscene.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialinterface\ispatialreference.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialinterface\istyle.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialinterface\itool.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialinterface\parameter.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialinterface\spatialinterface_config.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="eventobject.cpp" />
+    <ClCompile Include="igeofactory.cpp" />
+    <ClCompile Include="igeomeshcreator.cpp" />
+    <ClCompile Include="igeometry.cpp" />
+    <ClCompile Include="igeoobject.cpp" />
+    <ClCompile Include="igeoproperty.cpp" />
+    <ClCompile Include="ilayer.cpp" />
+    <ClCompile Include="irenderableobject.cpp" />
+    <ClCompile Include="iscene.cpp" />
+    <ClCompile Include="ispatialreference.cpp" />
+    <ClCompile Include="istyle.cpp" />
+    <ClCompile Include="itool.cpp" />
+    <ClCompile Include="parameter .cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

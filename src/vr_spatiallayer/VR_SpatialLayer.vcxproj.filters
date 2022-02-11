@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\vrmine\vr_spatiallayer\scenelayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatiallayer\spatiallayer_config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatiallayer\layerfactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatiallayer\demlayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatiallayer\imagelayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatiallayer\lanwaylayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatiallayer\modellayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatiallayer\drilllayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatiallayer\coallayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatiallayer\miningarealayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatiallayer\dotsceneloader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatiallayer\faultlayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatiallayer\terranelayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatiallayer\shotholelayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatiallayer\workingplanelayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatiallayer\lanewaySectiongForBangLayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatiallayer\escaperoute.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatiallayer\escaperoutelayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatiallayer\conprogresslayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="scenelayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="layerfactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="demlayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="imagelayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lanwaylayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="modellayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="drilllayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="coallayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miningarealayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dotsceneloader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="workingplanelayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="faultlayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="terranelayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shotholelayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lanewaySectiongForBangLayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="escaperoute.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="escaperoutelayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="conprogresslayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

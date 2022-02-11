@@ -1,0 +1,59 @@
+﻿生成启动时间为 15-9-15 10:36:12。
+     1>项目“E:\code2.0\jni\src\bang\Bang_GeneralUI\Bang_GeneralUI\Bang_GeneralUI.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\Bang_GeneralUI.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         所有输出均为最新。
+       ClCompile:
+         所有输出均为最新。
+         所有输出均为最新。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(E:\code2.0\\bin\Release\Bang_GeneralUI.dll) 与 Linker 的 OutputFile 属性值(E:\code2.0\bin\Release\Bang_GeneralUI.exe)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(991,5): warning MSB8012: TargetExt(.dll) 与 Linker 的 OutputFile 属性值(.exe)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\code2.0\\bin\Release\\Bang_GeneralUI.exe" /NOLOGO /LIBPATH:E:\code2.0\\jni\lib\boost /LIBPATH:C:\Qt\4.8.6\lib /LIBPATH:E:\code2.0\\bin\Release\ /LIBPATH:E:\code2.0\\jni\lib\ogre\release qtmain.lib QtCore4.lib QtGui4.lib OgreMain.lib VR_SpatialInterface.lib VR_Core.lib VR_SQLDataBaseHelper.lib VR_SystemUI.lib VR_ProjectManager.lib VR_DatabaseEngine.lib VR_Solutions.lib VR_HttpHelper.lib VR_SceneControl.lib VR_SpatialObject.lib VR_Geometry.lib VR_SpatialAnalyse.lib VR_Style.lib VR_SpatialEngine.lib VR_SpatialLayer.lib VR_Kml.lib VR_SqliteDatabase.lib VR_MathEngine.lib VR_SpatialRender.lib Bang_DatabaseEngine.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Bang_GeneralUI.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"E:\code2.0\bin\Release\Bang_GeneralUI.pdb" /SUBSYSTEM:WINDOWS /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\code2.0\\bin\Release\Bang_GeneralUI.lib" /MACHINE:X86 /DLL Release\blastingeffectdlg.obj
+         Release\boreholeparametersdlg.obj
+         Release\changepassworddlg.obj
+         Release\coalconditiondlg.obj
+         Release\coalmechanicalparametersdlg.obj
+         Release\drillingmachinetyped_Trolleydlg.obj
+         Release\drillingmachinetyped_ytdlg.obj
+         Release\explosiveinventorydocumentsdlg.obj
+         Release\explosivemagazinetabledlg.obj
+         Release\qrc_bang_generalui.obj
+         Release\moc_blastingeffectdlg.obj
+         Release\moc_boreholeparametersdlg.obj
+         Release\moc_changepassworddlg.obj
+         Release\moc_coalconditiondlg.obj
+         Release\moc_coalmechanicalparametersdlg.obj
+         Release\moc_drillingmachinetyped_Trolleydlg.obj
+         Release\moc_drillingmachinetyped_ytdlg.obj
+         Release\moc_explosiveinventorydocumentsdlg.obj
+         Release\moc_explosivemagazinetabledlg.obj
+         Release\moc_lanewaysectionpaintdlg.obj
+         Release\moc_logindlg.obj
+         Release\moc_openprojectdlg.obj
+         Release\moc_projectdesigndlg.obj
+         Release\moc_projectsummarydlg.obj
+         Release\moc_safeevacuationroutedlg.obj
+         Release\moc_usersinformationdlg.obj
+         Release\lanewaysectionpaintdlg.obj
+         Release\logindlg.obj
+         Release\openprojectdlg.obj
+         Release\projectdesigndlg.obj
+         Release\projectsummarydlg.obj
+         Release\safeevacuationroutedlg.obj
+         Release\usersinformationdlg.obj
+            正在创建库 E:\code2.0\\bin\Release\Bang_GeneralUI.lib 和对象 E:\code2.0\\bin\Release\Bang_GeneralUI.exp
+         正在生成代码
+         已完成代码的生成
+         Bang_GeneralUI.vcxproj -> E:\code2.0\\bin\Release\Bang_GeneralUI.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\code2.0\\bin\Release\\Bang_GeneralUI.exe;#2" /manifest Release\Bang_GeneralUI.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\Bang_GeneralUI.unsuccessfulbuild”。
+         正在对“Release\Bang_GeneralUI.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\code2.0\jni\src\bang\Bang_GeneralUI\Bang_GeneralUI\Bang_GeneralUI.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:19.46

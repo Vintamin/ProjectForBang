@@ -1,0 +1,12 @@
+﻿生成启动时间为 2021/11/2 15:50:29。
+     1>项目“F:\C++\code2.0\jni\src\bang\Bang_Render\Bang_Render.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\Bang_Render.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         E:\VS2010\install-vs\VC\bin\CL.exe /c /IF:\C++\code2.0\\jni\include /IF:\C++\code2.0\\jni\include\boost /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D VR_BANG_STYLE_EXPORTS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt embrasure_geometry.cpp embrasure_layer.cpp embrasure_meshcreator.cpp embrasure_object.cpp embrasure_property.cpp embrasure_renderobject.cpp
+         embrasure_renderobject.cpp
+     1>已完成生成项目“F:\C++\code2.0\jni\src\bang\Bang_Render\Bang_Render.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.67

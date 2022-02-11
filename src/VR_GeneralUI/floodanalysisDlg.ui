@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FloodAnalysis_UI</class>
+ <widget class="QWidget" name="FloodAnalysis_UI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>370</width>
+    <height>401</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>巷道淹没分析设置</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>:/img/resource/img/logo.png</normaloff>:/img/resource/img/logo.png</iconset>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>351</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>参数设置</string>
+   </property>
+   <widget class="QCheckBox" name="useWaterFlow">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>30</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>水面流动效果</string>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="waterHeight">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>80</y>
+      <width>211</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <double>-500.000000000000000</double>
+    </property>
+    <property name="maximum">
+     <double>500.000000000000000</double>
+    </property>
+    <property name="value">
+     <double>-50.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>140</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>被淹没巷道混合颜色</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>井下水面高度</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="selectWaterColour">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>140</y>
+      <width>211</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="palette">
+     <palette>
+      <active>
+       <colorrole role="Button">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Base">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Window">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </active>
+      <inactive>
+       <colorrole role="Button">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Base">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Window">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </inactive>
+      <disabled>
+       <colorrole role="Button">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Base">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </brush>
+       </colorrole>
+       <colorrole role="Window">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </disabled>
+     </palette>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="showWaterSurface">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>30</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>显示模拟水面</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>200</y>
+     <width>351</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>淹没描述</string>
+   </property>
+   <widget class="QTextEdit" name="floodDescription">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>331</width>
+      <height>111</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="handIn">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>360</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>提交</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancel">
+   <property name="geometry">
+    <rect>
+     <x>274</x>
+     <y>360</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>selectWaterColour</sender>
+   <signal>clicked()</signal>
+   <receiver>FloodAnalysis_UI</receiver>
+   <slot>slotSelectWaterColor()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>245</x>
+     <y>115</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>184</x>
+     <y>200</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>waterHeight</sender>
+   <signal>valueChanged(double)</signal>
+   <receiver>FloodAnalysis_UI</receiver>
+   <slot>slotSetWaterHeight(double)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>245</x>
+     <y>105</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>184</x>
+     <y>200</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>cancel</sender>
+   <signal>clicked()</signal>
+   <receiver>FloodAnalysis_UI</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>309</x>
+     <y>375</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>184</x>
+     <y>200</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>handIn</sender>
+   <signal>clicked()</signal>
+   <receiver>FloodAnalysis_UI</receiver>
+   <slot>slotHandIn()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>205</x>
+     <y>375</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>184</x>
+     <y>200</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>showWaterSurface</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>FloodAnalysis_UI</receiver>
+   <slot>slotShowWaterSurface(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>100</x>
+     <y>47</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>184</x>
+     <y>200</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>useWaterFlow</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>FloodAnalysis_UI</receiver>
+   <slot>slotWaterSurfaceEffect(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>265</x>
+     <y>47</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>184</x>
+     <y>200</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>slotSelectWaterColor()</slot>
+  <slot>slotSetWaterHeight(double)</slot>
+  <slot>slotHandIn()</slot>
+  <slot>slotShowWaterSurface(bool)</slot>
+  <slot>slotWaterSurfaceEffect(bool)</slot>
+ </slots>
+</ui>

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\factory">
+      <UniqueIdentifier>{b3d55f6d-cc5c-4615-b362-42b4411f8b9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\event">
+      <UniqueIdentifier>{aefd998d-1e76-4e7b-b9ff-42e3803678b6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\vrmine\vr_spatialinterface\itool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatialinterface\spatialinterface_config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatialinterface\iscene.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatialinterface\ilayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatialinterface\irenderableobject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatialinterface\istyle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatialinterface\igeometry.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatialinterface\ispatialreference.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatialinterface\factory\igeofactory.h">
+      <Filter>头文件\factory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatialinterface\igeoobject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatialinterface\igeoproperty.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatialinterface\igeomeshcreator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatialinterface\parameter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatialinterface\event\eventobject.h">
+      <Filter>头文件\event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatialinterface\iwidget.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="itool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="iscene.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ilayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="irenderableobject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="istyle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="igeometry.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ispatialreference.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="igeofactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="igeoobject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="igeoproperty.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="igeomeshcreator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="parameter .cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="eventobject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="iwidget.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

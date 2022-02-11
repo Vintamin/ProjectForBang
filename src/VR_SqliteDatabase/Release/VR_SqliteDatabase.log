@@ -1,0 +1,33 @@
+﻿生成启动时间为 15-9-4 13:21:59。
+     1>项目“E:\code2.0\jni\src\VR_SqliteDatabase\VR_SqliteDatabase.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\VR_SqliteDatabase.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\code2.0\\bin\Release\VR_SqliteDatabase.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:E:\code2.0\\bin\Release\ /LIBPATH:E:\code2.0\\jni\lib\ogre\release /LIBPATH:E:\code2.0\\jni\lib\boost /LIBPATH:E:\code2.0\\jni\lib\sqlite3 /LIBPATH:C:\Qt\4.8.6\lib sqlite3.lib qtmain.lib QtDesigner4.lib QtCore4.lib QtGui4.lib QtXml4.lib QtSql4.lib VR_DatabaseEngine.lib VR_Core.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\VR_SqliteDatabase.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"E:\code2.0\bin\Release\VR_SqliteDatabase.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\code2.0\\bin\Release\VR_SqliteDatabase.lib" /MACHINE:X86 /DLL Release\sqlitedatabase.obj
+         Release\sqlitedatabasemanager.obj
+            正在创建库 E:\code2.0\\bin\Release\VR_SqliteDatabase.lib 和对象 E:\code2.0\\bin\Release\VR_SqliteDatabase.exp
+         正在生成代码
+     1>e:\code2.0\jni\src\vr_sqlitedatabase\sqlitedatabase.cpp(5668): warning C4715: “VirtualMine::SQLiteDatabase::CSQLiteDatabase::queryFaultLayerDataset”: 不是所有的控件路径都返回值
+     1>e:\code2.0\jni\src\vr_sqlitedatabase\sqlitedatabase.cpp(4345): warning C4715: “VirtualMine::SQLiteDatabase::CSQLiteDatabase::queryImageDataset”: 不是所有的控件路径都返回值
+     1>e:\code2.0\jni\src\vr_sqlitedatabase\sqlitedatabase.cpp(4052): warning C4715: “VirtualMine::SQLiteDatabase::CSQLiteDatabase::queryModelDataset”: 不是所有的控件路径都返回值
+     1>e:\code2.0\jni\src\vr_sqlitedatabase\sqlitedatabase.cpp(3883): warning C4715: “VirtualMine::SQLiteDatabase::CSQLiteDatabase::queryWorkingplaneDataset”: 不是所有的控件路径都返回值
+     1>e:\code2.0\jni\src\vr_sqlitedatabase\sqlitedatabase.cpp(3777): warning C4715: “VirtualMine::SQLiteDatabase::CSQLiteDatabase::queryDEMFeature”: 不是所有的控件路径都返回值
+     1>e:\code2.0\jni\src\vr_sqlitedatabase\sqlitedatabase.cpp(3676): warning C4715: “VirtualMine::SQLiteDatabase::CSQLiteDatabase::queryCoalLayerDataset”: 不是所有的控件路径都返回值
+     1>e:\code2.0\jni\src\vr_sqlitedatabase\sqlitedatabase.cpp(3518): warning C4715: “VirtualMine::SQLiteDatabase::CSQLiteDatabase::queryDrillingFeature”: 不是所有的控件路径都返回值
+     1>e:\code2.0\jni\src\vr_sqlitedatabase\sqlitedatabase.cpp(3287): warning C4715: “VirtualMine::SQLiteDatabase::CSQLiteDatabase::queryLanewayFeature”: 不是所有的控件路径都返回值
+     1>e:\code2.0\jni\src\vr_sqlitedatabase\sqlitedatabase.cpp(915): warning C4715: “VirtualMine::SQLiteDatabase::CSQLiteDatabase::insertFeatureToDataset”: 不是所有的控件路径都返回值
+     1>e:\code2.0\jni\src\vr_sqlitedatabase\sqlitedatabase.cpp(468): warning C4715: “VirtualMine::SQLiteDatabase::CSQLiteDatabase::createDataset”: 不是所有的控件路径都返回值
+         已完成代码的生成
+         VR_SqliteDatabase.vcxproj -> E:\code2.0\\bin\Release\VR_SqliteDatabase.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\code2.0\\bin\Release\VR_SqliteDatabase.dll;#2" /manifest Release\VR_SqliteDatabase.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\VR_SqliteDatabase.unsuccessfulbuild”。
+         正在对“Release\VR_SqliteDatabase.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\code2.0\jni\src\VR_SqliteDatabase\VR_SqliteDatabase.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.42

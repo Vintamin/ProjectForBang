@@ -1,0 +1,21 @@
+﻿生成启动时间为 2021/11/23 20:49:05。
+     1>项目“F:\C++\code2.0\jni\src\VR_PluginsForQT\VR_MapControlWidget\VR_MapControlWidget.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\VRMapControlWidget.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         所有输出均为最新。
+       ClCompile:
+         所有输出均为最新。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(F:\C++\code2.0\\bin\Debug\VRMapControlWidget_ForQt.dll) 与 Linker 的 OutputFile 属性值(F:\C++\code2.0\bin\Debug\VRMapControlWidget.dll)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(VRMapControlWidget_ForQt) 与 Linker 的 OutputFile 属性值(VRMapControlWidget)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+       Link:
+         所有输出均为最新。
+         VR_MapControlWidget.vcxproj -> F:\C++\code2.0\\bin\Debug\VRMapControlWidget_ForQt.dll
+       FinalizeBuildStatus:
+         正在删除文件“Debug\VRMapControlWidget.unsuccessfulbuild”。
+         正在对“Debug\VRMapControlWidget.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\C++\code2.0\jni\src\VR_PluginsForQT\VR_MapControlWidget\VR_MapControlWidget.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.05

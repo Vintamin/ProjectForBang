@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Bang_Arithmetic">
+      <UniqueIdentifier>{28c84c03-af13-4feb-8c30-acb811da903e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Bang_Geometry">
+      <UniqueIdentifier>{d1c40e15-01f4-4fd6-81a1-9bd9a17cfea2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Bang_Object">
+      <UniqueIdentifier>{2a72ea4a-6329-49eb-aaaa-464590ca5151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Bang_RenderObject">
+      <UniqueIdentifier>{0d4ee7b8-ac8f-4d44-99b5-60aee33e5f87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Bang_Style">
+      <UniqueIdentifier>{bebdaef3-5316-4a77-b64e-7b47dad4c216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Bang_Layer">
+      <UniqueIdentifier>{6f1c19d9-1ea2-4eae-8099-e0345bc3df97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Bang_Arithmetic">
+      <UniqueIdentifier>{e74bfb00-9ac7-40a3-86a8-a099b998afef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Bang_Geometry">
+      <UniqueIdentifier>{f57a4730-4ac0-4afe-918e-f0b313a36474}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Bang_Layer">
+      <UniqueIdentifier>{bf731841-96ec-43b6-8128-2a2e74703ded}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Bang_Object">
+      <UniqueIdentifier>{c49ea769-c1e8-4583-9c5d-99f095bed6b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Bang_RenderObject">
+      <UniqueIdentifier>{903714a8-ed24-462e-a286-2155bb608e9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Bang_Style">
+      <UniqueIdentifier>{ff59619a-68cc-4f7b-b601-39c4a1a4a2b5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\include\bang\embrasure_meshcreator.h">
+      <Filter>头文件\Bang_Arithmetic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\bang\embrasure_geometry.h">
+      <Filter>头文件\Bang_Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\bang\embrasure_layer.h">
+      <Filter>头文件\Bang_Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\bang\embrasure_object.h">
+      <Filter>头文件\Bang_Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\bang\embrasure_property.h">
+      <Filter>头文件\Bang_Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\bang\embrasure_renderobject.h">
+      <Filter>头文件\Bang_RenderObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\bang\bang_render_config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\bang\embrasure_style.h">
+      <Filter>头文件\Bang_Style</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="embrasure_meshcreator.cpp">
+      <Filter>源文件\Bang_Arithmetic</Filter>
+    </ClCompile>
+    <ClCompile Include="embrasure_geometry.cpp">
+      <Filter>源文件\Bang_Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="embrasure_layer.cpp">
+      <Filter>源文件\Bang_Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="embrasure_object.cpp">
+      <Filter>源文件\Bang_Object</Filter>
+    </ClCompile>
+    <ClCompile Include="embrasure_property.cpp">
+      <Filter>源文件\Bang_Object</Filter>
+    </ClCompile>
+    <ClCompile Include="embrasure_renderobject.cpp">
+      <Filter>源文件\Bang_RenderObject</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

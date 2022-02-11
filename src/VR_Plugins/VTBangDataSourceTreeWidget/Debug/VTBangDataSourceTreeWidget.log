@@ -1,0 +1,87 @@
+﻿生成启动时间为 2021/12/10 21:15:29。
+     1>项目“F:\C++\code2.0\jni\src\VR_Plugins\VTBangDataSourceTreeWidget\VTBangDataSourceTreeWidget.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\VTBangDataSourceTreeWidget.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Moc'ing vtbangdatasourcetreewidget.h...
+       ClCompile:
+         E:\VS2010\install-vs\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /I"E:\VS2010\QT4.8.6\QT-4.8.6install\include" /I.\GeneratedFiles\Debug /I"E:\VS2010\QT4.8.6\QT-4.8.6install\include\QtDesigner" /I"E:\VS2010\QT4.8.6\QT-4.8.6install\include\QtCore" /I"E:\VS2010\QT4.8.6\QT-4.8.6install\include\QtGui" /I"E:\VS2010\QT4.8.6\QT-4.8.6install\include\QtXml" /IF:\C++\code2.0\\jni\include /IF:\C++\code2.0\\jni\include\boost /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_PLUGIN /D QBANGDATASOURCETREE_EXPORT_WIDGETS /D QT_CORE_LIB /D QT_GUI_LIB /D _WINDLL /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Debug\moc_vtbangdatasourcetreewidget.cpp vtbangdatasourcetreewidget.cpp vtbangdatasourcetreewidgetplugin.cpp
+         moc_vtbangdatasourcetreewidget.cpp
+     1>F:\C++\code2.0\jni\include\vrmine/vr_core/coredefine.h(80): warning C4091: “typedef ”: 没有声明变量时忽略“point_2D”的左侧
+     1>F:\C++\code2.0\jni\include\vrmine\vr_spatialinterface\parameter.h(15): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+         vtbangdatasourcetreewidget.cpp
+     1>F:\C++\code2.0\jni\include\vrmine/vr_core/coredefine.h(80): warning C4091: “typedef ”: 没有声明变量时忽略“point_2D”的左侧
+     1>F:\C++\code2.0\jni\include\vrmine\vr_spatialinterface\parameter.h(15): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>F:\C++\code2.0\jni\include\vrmine/vr_style/style/lanewaystyle.h(108): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“VirtualMine::Style::LanewaySectionType”
+     1>F:\C++\code2.0\jni\include\vrmine/vr_style/style/lanewaystyle.h(111): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“VirtualMine::Style::LanewaySuppoetType”
+     1>vtbangdatasourcetreewidget.cpp(367): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>vtbangdatasourcetreewidget.cpp(532): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>vtbangdatasourcetreewidget.cpp(869): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Qt::CheckState”
+     1>vtbangdatasourcetreewidget.cpp(881): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Qt::CheckState”
+     1>vtbangdatasourcetreewidget.cpp(889): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>vtbangdatasourcetreewidget.cpp(991): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Qt::CheckState”
+     1>vtbangdatasourcetreewidget.cpp(998): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Qt::CheckState”
+     1>vtbangdatasourcetreewidget.cpp(1165): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Qt::CheckState”
+     1>vtbangdatasourcetreewidget.cpp(1182): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Qt::CheckState”
+     1>vtbangdatasourcetreewidget.cpp(1345): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Qt::CheckState”
+     1>vtbangdatasourcetreewidget.cpp(1365): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Qt::CheckState”
+     1>vtbangdatasourcetreewidget.cpp(1557): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Qt::CheckState”
+     1>vtbangdatasourcetreewidget.cpp(1569): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Qt::CheckState”
+     1>vtbangdatasourcetreewidget.cpp(1645): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Qt::CheckState”
+     1>vtbangdatasourcetreewidget.cpp(1657): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Qt::CheckState”
+     1>vtbangdatasourcetreewidget.cpp(1733): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Qt::CheckState”
+     1>vtbangdatasourcetreewidget.cpp(1745): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Qt::CheckState”
+     1>vtbangdatasourcetreewidget.cpp(1789): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Qt::CheckState”
+     1>vtbangdatasourcetreewidget.cpp(2161): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>vtbangdatasourcetreewidget.cpp(2467): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>vtbangdatasourcetreewidget.cpp(2484): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Qt::CheckState”
+     1>vtbangdatasourcetreewidget.cpp(2497): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Qt::CheckState”
+     1>vtbangdatasourcetreewidget.cpp(2501): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Qt::CheckState”
+     1>vtbangdatasourcetreewidget.cpp(2505): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Qt::CheckState”
+     1>vtbangdatasourcetreewidget.cpp(2575): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>vtbangdatasourcetreewidget.cpp(2582): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Qt::CheckState”
+     1>vtbangdatasourcetreewidget.cpp(2596): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Qt::CheckState”
+     1>vtbangdatasourcetreewidget.cpp(2613): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Qt::CheckState”
+     1>vtbangdatasourcetreewidget.cpp(2619): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Qt::CheckState”
+     1>vtbangdatasourcetreewidget.cpp(2635): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Qt::CheckState”
+     1>vtbangdatasourcetreewidget.cpp(2644): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Qt::CheckState”
+     1>vtbangdatasourcetreewidget.cpp(2655): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Qt::CheckState”
+     1>vtbangdatasourcetreewidget.cpp(2662): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Qt::CheckState”
+     1>vtbangdatasourcetreewidget.cpp(2672): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Qt::CheckState”
+     1>vtbangdatasourcetreewidget.cpp(2680): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Qt::CheckState”
+     1>vtbangdatasourcetreewidget.cpp(2690): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Qt::CheckState”
+     1>vtbangdatasourcetreewidget.cpp(2714): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>vtbangdatasourcetreewidget.cpp(2721): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Qt::CheckState”
+     1>vtbangdatasourcetreewidget.cpp(2736): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Qt::CheckState”
+     1>vtbangdatasourcetreewidget.cpp(2752): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Qt::CheckState”
+     1>vtbangdatasourcetreewidget.cpp(2758): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Qt::CheckState”
+     1>vtbangdatasourcetreewidget.cpp(2774): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Qt::CheckState”
+     1>vtbangdatasourcetreewidget.cpp(2783): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Qt::CheckState”
+     1>vtbangdatasourcetreewidget.cpp(2794): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Qt::CheckState”
+     1>vtbangdatasourcetreewidget.cpp(2801): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Qt::CheckState”
+     1>vtbangdatasourcetreewidget.cpp(2811): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Qt::CheckState”
+     1>vtbangdatasourcetreewidget.cpp(2819): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Qt::CheckState”
+     1>vtbangdatasourcetreewidget.cpp(2829): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Qt::CheckState”
+         vtbangdatasourcetreewidgetplugin.cpp
+     1>F:\C++\code2.0\jni\include\vrmine/vr_core/coredefine.h(80): warning C4091: “typedef ”: 没有声明变量时忽略“point_2D”的左侧
+     1>F:\C++\code2.0\jni\include\vrmine\vr_spatialinterface\parameter.h(15): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>vtbangdatasourcetreewidgetplugin.cpp(11): warning C4138: 在注释外找到“*/”
+         正在生成代码...
+       Link:
+         E:\VS2010\install-vs\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\C++\code2.0\\bin\Debug\\VTBangDataSourceTreeWidget_d.dll" /NOLOGO /LIBPATH:F:\C++\code2.0\\bin\Debug\ /LIBPATH:F:\C++\code2.0\\jni\lib\ogre\debug /LIBPATH:F:\C++\code2.0\\jni\lib\boost /LIBPATH:"E:\VS2010\QT4.8.6\QT-4.8.6install\lib" qtmaind.lib QtDesignerd4.lib QtCored4.lib QtGuid4.lib OgreMain_d.lib VRSceneTreeWidget_d.lib VR_DatabaseEngine_d.lib VR_SqliteDatabase_d.lib VR_Core_d.lib VR_SpatialLayer_d.lib VR_MapLayer_d.lib Bang_DatabaseEngine_d.lib VR_SpatialInterface_d.lib VR_Style_d.lib VR_SpatialRender_d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\VTBangDataSourceTreeWidget_d.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\C++\code2.0\bin\Debug\VTBangDataSourceTreeWidget_d.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\C++\code2.0\\bin\Debug\VTBangDataSourceTreeWidget_d.lib" /MACHINE:X86 /DLL Debug\moc_vtbangdatasourcetreewidget.obj
+         Debug\moc_vtbangdatasourcetreewidgetplugin.obj
+         Debug\vtbangdatasourcetreewidget.obj
+         Debug\vtbangdatasourcetreewidgetplugin.obj
+         LINK : 没有找到 F:\C++\code2.0\\bin\Debug\\VTBangDataSourceTreeWidget_d.dll 或上一个增量链接没有生成它；正在执行完全链接
+            正在创建库 F:\C++\code2.0\\bin\Debug\VTBangDataSourceTreeWidget_d.lib 和对象 F:\C++\code2.0\\bin\Debug\VTBangDataSourceTreeWidget_d.exp
+         VTBangDataSourceTreeWidget.vcxproj -> F:\C++\code2.0\\bin\Debug\VTBangDataSourceTreeWidget_d.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\C++\code2.0\\bin\Debug\\VTBangDataSourceTreeWidget_d.dll;#2" /manifest Debug\VTBangDataSourceTreeWidget_d.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\VTBangDataSourceTreeWidget.unsuccessfulbuild”。
+         正在对“Debug\VTBangDataSourceTreeWidget.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\C++\code2.0\jni\src\VR_Plugins\VTBangDataSourceTreeWidget\VTBangDataSourceTreeWidget.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:21.13

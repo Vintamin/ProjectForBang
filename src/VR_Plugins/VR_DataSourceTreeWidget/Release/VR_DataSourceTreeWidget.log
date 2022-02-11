@@ -1,0 +1,25 @@
+﻿生成启动时间为 15-9-15 10:38:42。
+     1>项目“E:\code2.0\jni\src\VR_Plugins\VR_DataSourceTreeWidget\VR_DataSourceTreeWidget.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\VRDataSourceTreeWidget.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         所有输出均为最新。
+       ClCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\code2.0\\bin\Release\\VRDataSourceTreeWidget.dll" /NOLOGO /LIBPATH:C:\Qt\4.8.6\lib /LIBPATH:E:\code2.0\\bin\Release\ /LIBPATH:E:\code2.0\\jni\lib\ogre\release /LIBPATH:E:\code2.0\\jni\lib\boost qtmain.lib QtDesigner4.lib QtCore4.lib QtGui4.lib VR_Core.lib VR_DatabaseEngine.lib VR_SpatialInterface.lib VR_GeneralUI.lib VR_ProjectManager.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\VRDataSourceTreeWidget.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"E:\code2.0\bin\Release\VRDataSourceTreeWidget.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\code2.0\\bin\Release\VRDataSourceTreeWidget.lib" /MACHINE:X86 /DLL Release\moc_vrdatasourcetreewidget.obj
+         Release\moc_vrdatasourcetreewidgetplugin.obj
+         Release\vrdatasourcetreewidget.obj
+         Release\vrdatasourcetreewidgetplugin.obj
+            正在创建库 E:\code2.0\\bin\Release\VRDataSourceTreeWidget.lib 和对象 E:\code2.0\\bin\Release\VRDataSourceTreeWidget.exp
+         VR_DataSourceTreeWidget.vcxproj -> E:\code2.0\\bin\Release\VRDataSourceTreeWidget.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\code2.0\\bin\Release\\VRDataSourceTreeWidget.dll;#2" /manifest Release\VRDataSourceTreeWidget.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\VRDataSourceTreeWidget.unsuccessfulbuild”。
+         正在对“Release\VRDataSourceTreeWidget.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\code2.0\jni\src\VR_Plugins\VR_DataSourceTreeWidget\VR_DataSourceTreeWidget.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.42

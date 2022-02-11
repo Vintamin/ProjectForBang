@@ -1,0 +1,41 @@
+﻿生成启动时间为 2022/1/16 16:57:38。
+     1>项目“F:\C++\code2.0\jni\src\VR_MapLayer\VR_MapLayer.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\VR_MapLayer.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         E:\VS2010\install-vs\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /I"E:\VS2010\QT4.8.6\QT-4.8.6install\include" /I.\GeneratedFiles\Debug /I"E:\VS2010\QT4.8.6\QT-4.8.6install\include\QtCore" /IF:\C++\code2.0\\jni\include /IF:\C++\code2.0\\jni\include\boost /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_CORE_LIB /D VR_MAPLAYER_DLLEXPORT /D _WINDLL /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt bangprojectmanager.cpp
+         bangprojectmanager.cpp
+     1>F:\C++\code2.0\jni\include\vrmine/vr_core/coredefine.h(80): warning C4091: “typedef ”: 没有声明变量时忽略“point_2D”的左侧
+     1>F:\C++\code2.0\jni\include\vrmine\vr_spatialinterface\parameter.h(15): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+       Link:
+         E:\VS2010\install-vs\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\C++\code2.0\\bin\Debug\\VR_MapLayer_d.dll" /NOLOGO /LIBPATH:"E:\VS2010\QT4.8.6\QT-4.8.6install\lib" /LIBPATH:F:\C++\code2.0\\bin\Debug\ /LIBPATH:F:\C++\code2.0\\jni\lib\boost /LIBPATH:F:\C++\code2.0\\jni\lib\ogre\debug "E:\VS2010\QT4.8.6\QT-4.8.6install\lib\qtmaind.lib" "E:\VS2010\QT4.8.6\QT-4.8.6install\lib\QtCored4.lib" "E:\VS2010\QT4.8.6\QT-4.8.6install\lib\QtDesignerd4.lib" "E:\VS2010\QT4.8.6\QT-4.8.6install\lib\QtGuid4.lib" "E:\VS2010\QT4.8.6\QT-4.8.6install\lib\QtXmld4.lib" VR_Core_d.lib OgreMain_d.lib VR_Geometry_d.lib VR_Style_d.lib VR_DatabaseEngine_d.lib VR_SqliteDatabase_d.lib VR_SpatialLayer_d.lib VR_SpatialObject_d.lib VR_Utility_d.lib VR_SpatialInterface_d.lib Bang_DatabaseEngine_d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\VR_MapLayer_d.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\C++\code2.0\bin\Debug\VR_MapLayer_d.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\C++\code2.0\\bin\Debug\VR_MapLayer_d.lib" /MACHINE:X86 /DLL Debug\arcdrawitem.obj
+         Debug\bangprojectmanager.obj
+         Debug\ellipse.obj
+         Debug\idrawobject.obj
+         Debug\igeometrydrawitem.obj
+         Debug\line2D.obj
+         Debug\linedrawitem.obj
+         Debug\map.obj
+         Debug\map2dlayer.obj
+         Debug\point2D.obj
+         Debug\pointdrawitem.obj
+         Debug\pointlayer.obj
+         Debug\polylinelayer.obj
+         Debug\rectangle.obj
+         Debug\rocklayer2D.obj
+         Debug\shapeitem.obj
+         Debug\shotholelayer.obj
+         Debug\textDrawItem.obj
+         LINK : 没有找到 F:\C++\code2.0\\bin\Debug\\VR_MapLayer_d.dll 或上一个增量链接没有生成它；正在执行完全链接
+            正在创建库 F:\C++\code2.0\\bin\Debug\VR_MapLayer_d.lib 和对象 F:\C++\code2.0\\bin\Debug\VR_MapLayer_d.exp
+         VR_MapLayer.vcxproj -> F:\C++\code2.0\\bin\Debug\VR_MapLayer_d.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\C++\code2.0\\bin\Debug\\VR_MapLayer_d.dll;#2" /manifest Debug\VR_MapLayer_d.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\VR_MapLayer.unsuccessfulbuild”。
+         正在对“Debug\VR_MapLayer.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\C++\code2.0\jni\src\VR_MapLayer\VR_MapLayer.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.77

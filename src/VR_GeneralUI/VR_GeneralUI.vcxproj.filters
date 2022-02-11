@@ -1,0 +1,593 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files\Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Form Files\Generated Files\Debug">
+      <UniqueIdentifier>{b4983f5e-504c-4fab-a9c8-2a027f8bbba4}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Form Files\Generated Files\Release">
+      <UniqueIdentifier>{84d6b51f-709d-4f83-af32-2b3f6f9514b9}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="vr_generalui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vr_generaluiplugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vr_generaluiplugin.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vr_generaluiplugin.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="basedialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="layerpropertyDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vr_generalui.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vr_generalui.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_basedialog.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_basedialog.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="realpeoplequeryDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="switchpropertyDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="floodanalysisDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="simupropertyDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="localdatasourceDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="globalmonitorDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_globalmonitorDlg.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_globalmonitorDlg.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_floodanalysisDlg.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_floodanalysisDlg.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_layerpropertyDlg.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_layerpropertyDlg.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_localdatasourceDlg.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_localdatasourceDlg.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_switchpropertyDlg.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_switchpropertyDlg.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_simupropertyDlg.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_simupropertyDlg.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_realpeoplequeryDlg.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_realpeoplequeryDlg.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="safesolutionDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_safesolutionDlg.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_safesolutionDlg.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="severconfigDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_severconfigDlg.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_severconfigDlg.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_locationpropertyDlg.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_locationpropertyDlg.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="locationpropertyDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_peopletraceDlg.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_peopletraceDlg.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="peopletraceDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_projectlistDlg.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_projectlistDlg.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="projectlistDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="allmonitorDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_allmonitorDlg.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_allmonitorDlg.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_simuvalueDlg.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_simuvalueDlg.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="simuvalueDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="modelpropertyDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_modelpropertyDlg.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_modelpropertyDlg.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="systemsetting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_systemsetting.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_systemsetting.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="addsolutiondlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_addsolutiondlg.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_addsolutiondlg.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="loadvideo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_loadvideodlg.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_loadvideodlg.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_switchvalueDlg.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_switchvalueDlg.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="switchvalueDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="regesterdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_regesterdlg.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_regesterdlg.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_boardinfo.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_boardinfo.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="boardinfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="drillingsaveanalysisdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="propertyquerydlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="spatialanalysisdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="touranalysisdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_drillingsaveanalysisdlg.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_drillingsaveanalysisdlg.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_propertyquerydlg.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_propertyquerydlg.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_spatialsnalysisdlg.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_spatialsnalysisdlg.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_touranalysisdlg.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_touranalysisdlg.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="querylanewaydlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="querycoordinationdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_querylanewaydlg.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_querylanewaydlg.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_querycoordinationdlg.cpp">
+      <Filter>Form Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_querycoordinationdlg.cpp">
+      <Filter>Form Files\Generated Files\Release</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="vr_generaluiplugin.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\include\vrmine\vr_generalui\vr_generaluiconfig.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\include\vrmine\vr_generalui\basedialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="layerpropertyDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="vr_generalui.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="datasetpropertyDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="realpeopleDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="switchpropertyDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="floodanalysisDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simupropertyDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="localdatasourceDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="createnewsceneDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="layeraddDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="globalMonitorDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\include\vrmine\vr_generalui\globalmonitorDlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\include\vrmine\vr_generalui\floodanalysisDlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\include\vrmine\vr_generalui\layerpropertyDlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\include\vrmine\vr_generalui\localdatasourceDlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\include\vrmine\vr_generalui\switchpropertyDlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\include\vrmine\vr_generalui\simupropertyDlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\include\vrmine\vr_generalui\realpeoplequeryDlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="safesolutionDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\include\vrmine\vr_generalui\safesolutionDlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="severconfigDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\include\vrmine\vr_generalui\severconfigDlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="locationpropertyDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\include\vrmine\vr_generalui\locationpropertyDlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="peopletraceDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\include\vrmine\vr_generalui\peopletraceDlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="projectlistDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\include\vrmine\vr_generalui\projectlistDlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="allmonitorDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\include\vrmine\vr_generalui\allmonitorDlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\include\vrmine\vr_generalui\simuvalueDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\include\vrmine\vr_generalui\simuvalueDlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="modelpropertyDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\include\vrmine\vr_generalui\modelpropertyDlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="shortCutViewDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\include\vrmine\vr_generalui\systemsetting.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="addSolutionDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\include\vrmine\vr_generalui\addsolutiondlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\include\vrmine\vr_generalui\loadvideo.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\include\vrmine\vr_generalui\loadvideodlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tourPropertyDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="switchvalueDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\include\vrmine\vr_generalui\switchvalueDlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="registerdlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\include\vrmine\vr_generalui\regesterdlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\include\vrmine\vr_generalui\boardinfo.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="boardinfo.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="drillingAnalysisdlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="propertyquerydlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="spaltialanalysidlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="touranalysisdlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\include\vrmine\vr_generalui\drillingsaveanalysisdlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\include\vrmine\vr_generalui\propertyquerydlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\include\vrmine\vr_generalui\spatialsnalysisdlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\include\vrmine\vr_generalui\touranalysisdlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="queryLanewayByName.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\include\vrmine\vr_generalui\querylanewaydlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="querycoordination.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\include\vrmine\vr_generalui\querycoordinationdlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_layerpropertyDlg.h">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_datasetpropertyDlg.h">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_realpeopleDlg.h">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_switchpropertyDlg.h">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_floodanalysisDlg.h">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_simupropertyDlg.h">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_localdatasourceDlg.h">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_createnewsceneDlg.h">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_layeraddDlg.h">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_globalMonitorDlg.h">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_safesolutionDlg.h">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_severconfigDlg.h">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_locationpropertyDlg.h">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_peopletraceDlg.h">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_projectlistDlg.h">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_allmonitorDlg.h">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_simuvalueDlg.h">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_modelpropertyDlg.h">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_shortCutViewDlg.h">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_addSolutionDlg.h">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_loadvideo.h">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_tourPropertyDlg.h">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_switchvalueDlg.h">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_registerdlg.h">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_boardinfo.h">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_drillingAnalysisdlg.h">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_propertyquerydlg.h">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_spaltialanalysidlg.h">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_touranalysisdlg.h">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_queryLanewayByName.h">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_querycoordination.h">
+      <Filter>Form Files\Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,12 @@
+﻿生成启动时间为 2021/8/8 14:41:53。
+     1>项目“F:\矿大\爆破项目\code2.1\code2.0\jni\src\VR_Plugins\VR_DataSourceTreeWidget\VR_DataSourceTreeWidget.vcxproj”在节点 4 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\VRDataSourceTreeWidget.unsuccessfulbuild”执行 Touch 任务。
+       CustomBuild:
+         Moc'ing vrdatasourcetreewidgetplugin.h...
+         Moc'ing vrdatasourcetreewidget.h...
+     1>已完成生成项目“F:\矿大\爆破项目\code2.1\code2.0\jni\src\VR_Plugins\VR_DataSourceTreeWidget\VR_DataSourceTreeWidget.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:03.40

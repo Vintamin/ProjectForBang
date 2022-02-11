@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>loginform</class>
+ <widget class="QWidget" name="loginform">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>548</width>
+    <height>344</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>390</width>
+    <height>300</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>智能矿山爆破设计与施工管理系统</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QLabel#namelabel
+{
+	
+	color: rgb(170, 255, 255);
+	font: 20pt &quot;华文行楷&quot;;
+}
+QWidget#loginform
+{
+	
+	border-image: url(:/MyProject_ForBang/icon/背景.jpg);
+}</string>
+  </property>
+  <widget class="QLabel" name="namelabel">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>20</y>
+     <width>431</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>智能矿山爆破设计与施工管理系统</string>
+   </property>
+   <property name="indent">
+    <number>3</number>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>90</y>
+     <width>291</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>用户信息</string>
+   </property>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>40</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>用户类别：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>120</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>用户密码：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>80</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>用户名称：</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="userCategoryCmb">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>30</y>
+      <width>121</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>1.设计人员</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2.施工管理人员</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3.普通用户</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLineEdit" name="userLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>80</y>
+      <width>121</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="passwordLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>120</y>
+      <width>121</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="loginBtn">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>280</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#loginBtn
+{
+	
+	background-color: rgb(11, 103, 168);
+}
+QPushButton#loginBtn:hover
+{
+	
+	
+	background-color: rgb(31, 153, 206);
+}</string>
+   </property>
+   <property name="text">
+    <string>登  陆</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancleBtn">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>280</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#cancleBtn
+{
+	
+	background-color: rgb(11, 103, 168);
+}
+QPushButton#cancleBtn:hover
+{
+	
+	
+	background-color: rgb(31, 153, 206);
+}</string>
+   </property>
+   <property name="text">
+    <string>退  出</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../MyProject_ForBang/myproject_forbang.qrc"/>
+ </resources>
+ <connections/>
+</ui>

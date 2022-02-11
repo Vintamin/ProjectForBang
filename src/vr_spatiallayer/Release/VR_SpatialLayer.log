@@ -1,0 +1,42 @@
+﻿生成启动时间为 15-9-12 10:26:49。
+     1>项目“E:\code2.0\jni\src\vr_spatiallayer\VR_SpatialLayer.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\VR_SpatialLayer.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\code2.0\\bin\Release\VR_SpatialLayer.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:E:\code2.0\\bin\Release\ /LIBPATH:E:\code2.0\\jni\lib\boost /LIBPATH:E:\code2.0\\jni\lib\ogre\release VR_SpatialEngine.lib OgreMain.lib VR_SpatialRender.lib VR_DatabaseEngine.lib VR_SpatialObject.lib VR_Core.lib VR_Utility.lib VR_Geometry.lib VR_SpatialInterface.lib VR_Style.lib VR_MathEngine.lib Bang_DatabaseEngine.lib VR_SqliteDatabase.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\VR_SpatialLayer.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"E:\code2.0\bin\Release\VR_SpatialLayer.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\code2.0\\bin\Release\VR_SpatialLayer.lib" /MACHINE:X86 /DLL Release\coallayer.obj
+         Release\demlayer.obj
+         Release\dotsceneloader.obj
+         Release\drilllayer.obj
+         Release\escaperoute.obj
+         Release\escaperoutelayer.obj
+         Release\faultlayer.obj
+         Release\imagelayer.obj
+         Release\lanewaySectiongForBangLayer.obj
+         Release\lanwaylayer.obj
+         Release\layerfactory.obj
+         Release\miningarealayer.obj
+         Release\modellayer.obj
+         Release\scenelayer.obj
+         Release\shotholelayer.obj
+         Release\terranelayer.obj
+         Release\workingplanelayer.obj
+            正在创建库 E:\code2.0\\bin\Release\VR_SpatialLayer.lib 和对象 E:\code2.0\\bin\Release\VR_SpatialLayer.exp
+         正在生成代码
+     1>e:\code2.0\jni\src\vr_spatiallayer\imagelayer.cpp(195): warning C4756: 常量算法中溢出
+     1>e:\code2.0\jni\src\vr_spatiallayer\imagelayer.cpp(195): warning C4756: 常量算法中溢出
+     1>e:\code2.0\jni\src\vr_spatiallayer\scenelayer.cpp(361): warning C4715: “VirtualMine::SpatialLayer::CSceneLayer::getGeoObject”: 不是所有的控件路径都返回值
+     1>e:\code2.0\jni\src\vr_spatiallayer\imagelayer.cpp(72): warning C4715: “VirtualMine::SpatialLayer::CDemEventHandler::handleEvent”: 不是所有的控件路径都返回值
+         已完成代码的生成
+         VR_SpatialLayer.vcxproj -> E:\code2.0\\bin\Release\VR_SpatialLayer.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\code2.0\\bin\Release\VR_SpatialLayer.dll;#2" /manifest Release\VR_SpatialLayer.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\VR_SpatialLayer.unsuccessfulbuild”。
+         正在对“Release\VR_SpatialLayer.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\code2.0\jni\src\vr_spatiallayer\VR_SpatialLayer.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:24.00

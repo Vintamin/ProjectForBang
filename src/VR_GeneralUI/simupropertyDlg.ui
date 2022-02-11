@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SimuDlg</class>
+ <widget class="QWidget" name="SimuDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>297</width>
+    <height>279</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>297</width>
+    <height>279</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>297</width>
+    <height>279</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>监测信息</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_4">
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QGroupBox" name="groupBox">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>60</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="title">
+        <string>设备信息</string>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="0" column="0">
+         <layout class="QGridLayout" name="gridLayout">
+          <item row="0" column="0">
+           <layout class="QHBoxLayout" name="horizontalLayout_4">
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout">
+              <item>
+               <widget class="QLabel" name="label">
+                <property name="maximumSize">
+                 <size>
+                  <width>40</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>名称</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="nameLabel">
+                <property name="text">
+                 <string>----</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_2">
+              <item>
+               <widget class="QLabel" name="label_3">
+                <property name="maximumSize">
+                 <size>
+                  <width>40</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>类型</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="typeLabel">
+                <property name="text">
+                 <string>----</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+          <item row="1" column="0">
+           <layout class="QHBoxLayout" name="horizontalLayout_3">
+            <item>
+             <widget class="QLabel" name="label_2">
+              <property name="maximumSize">
+               <size>
+                <width>40</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>地点</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="addressLabel">
+              <property name="text">
+               <string>----</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QGroupBox" name="groupBox_2">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>178</height>
+        </size>
+       </property>
+       <property name="title">
+        <string>监测数据</string>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_3">
+        <item row="0" column="0">
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_5">
+            <item>
+             <widget class="QLabel" name="label_7">
+              <property name="maximumSize">
+               <size>
+                <width>100</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>监测值/最大值</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="jianceLabel">
+              <property name="text">
+               <string>----</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_6">
+            <item>
+             <widget class="QLabel" name="label_8">
+              <property name="maximumSize">
+               <size>
+                <width>100</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>设备状态</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="statusLabel">
+              <property name="text">
+               <string>----</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_7">
+            <item>
+             <widget class="QLabel" name="label_9">
+              <property name="maximumSize">
+               <size>
+                <width>100</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>报警及时刻</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="baojingLabel">
+              <property name="text">
+               <string>----</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_8">
+            <item>
+             <widget class="QLabel" name="label_10">
+              <property name="maximumSize">
+               <size>
+                <width>100</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>断电/复电状态</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="duandianLabel">
+              <property name="text">
+               <string>----</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_9">
+            <item>
+             <widget class="QLabel" name="label_11">
+              <property name="maximumSize">
+               <size>
+                <width>100</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>馈电状态及时刻</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="kuidianLabel">
+              <property name="text">
+               <string>----</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_10">
+            <item>
+             <widget class="QLabel" name="label_12">
+              <property name="maximumSize">
+               <size>
+                <width>100</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>工作时间</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="timeLabel">
+              <property name="text">
+               <string>----</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

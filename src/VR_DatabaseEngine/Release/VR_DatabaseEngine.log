@@ -1,0 +1,65 @@
+﻿生成启动时间为 15-9-4 13:21:50。
+     1>项目“E:\code2.0\jni\src\VR_DatabaseEngine\VR_DatabaseEngine.vcxproj”在节点 4 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\VR_DatabaseEngine.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\code2.0\\bin\Release\VR_DatabaseEngine.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:E:\code2.0\\bin\Release\ /LIBPATH:E:\code2.0\\jni\lib\boost VR_Core.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /PDB:"E:\code2.0\bin\Release\VR_DatabaseEngine.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\code2.0\\bin\Release\VR_DatabaseEngine.lib" /MACHINE:X86 /DLL Release\userinfodataset.obj
+         Release\coallayerdataset.obj
+         Release\coallayerfeature.obj
+         Release\database.obj
+         Release\databaseinfo.obj
+         Release\databasemanager.obj
+         Release\dataset.obj
+         Release\demdataset.obj
+         Release\DEMFeature.obj
+         Release\drillingdataset.obj
+         Release\drilllingfeature.obj
+         Release\faultlayerdataset.obj
+         Release\faultlayerfeature.obj
+         Release\feature.obj
+         Release\field.obj
+         Release\fields.obj
+         Release\idataset.obj
+         Release\idatasource.obj
+         Release\idatasourceinfo.obj
+         Release\idatasourcemanager.obj
+         Release\ifeature.obj
+         Release\ifield.obj
+         Release\ifields.obj
+         Release\imagedataset.obj
+         Release\ImageFeature.obj
+         Release\ipropertyset.obj
+         Release\lanewaydataset.obj
+         Release\lanewayfeature.obj
+         Release\logicdataset.obj
+         Release\logicfeature.obj
+         Release\metadatadataset.obj
+         Release\metadatafeature.obj
+         Release\modeldataset.obj
+         Release\modelfeature.obj
+         Release\propertyset.obj
+         Release\roaddataset.obj
+         Release\roadfeature.obj
+         Release\terranedataset.obj
+         Release\terranefeature.obj
+         Release\userinfofeature.obj
+         Release\workingplanedataset.obj
+         Release\workingplanefeature.obj
+            正在创建库 E:\code2.0\\bin\Release\VR_DatabaseEngine.lib 和对象 E:\code2.0\\bin\Release\VR_DatabaseEngine.exp
+         正在生成代码
+     1>e:\code2.0\jni\src\vr_databaseengine\idatasource.cpp(102): warning C4700: 使用了未初始化的局部变量“idataset”
+     1>e:\code2.0\jni\src\vr_databaseengine\database.cpp(50): warning C4715: “VirtualMine::Database::CDatabase::getDataset”: 不是所有的控件路径都返回值
+     1>e:\code2.0\jni\src\vr_databaseengine\propertyset.cpp(43): warning C4715: “VirtualMine::Database::CPropertySet::getValue”: 不是所有的控件路径都返回值
+     1>e:\code2.0\jni\src\vr_databaseengine\lanewayfeature.cpp(413): warning C4715: “VirtualMine::Database::CLanewayFeature::getValue”: 不是所有的控件路径都返回值
+         已完成代码的生成
+         VR_DatabaseEngine.vcxproj -> E:\code2.0\\bin\Release\VR_DatabaseEngine.dll
+       FinalizeBuildStatus:
+         正在删除文件“Release\VR_DatabaseEngine.unsuccessfulbuild”。
+         正在对“Release\VR_DatabaseEngine.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\code2.0\jni\src\VR_DatabaseEngine\VR_DatabaseEngine.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.08

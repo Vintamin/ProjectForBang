@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DataSourceConfig_UI</class>
+ <widget class="QWidget" name="DataSourceConfig_UI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>512</width>
+    <height>214</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>数据源配置</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="Generalqrc.qrc">
+    <normaloff>:/img/resource/img/logo.png</normaloff>:/img/resource/img/logo.png</iconset>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>491</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>本地数据源配置</string>
+   </property>
+   <widget class="QPushButton" name="SelectAct">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>80</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>选择..</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="dataSourcePath">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>80</y>
+      <width>311</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>数据源路径</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>数据源类型</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="dataSourceType">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>30</y>
+      <width>311</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>GDBT_SQLite</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="handIn">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>170</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>提交</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancel">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>170</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Generalqrc.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>SelectAct</sender>
+   <signal>clicked()</signal>
+   <receiver>DataSourceConfig_UI</receiver>
+   <slot>slotSelectDataSourcePath()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>450</x>
+     <y>115</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>255</x>
+     <y>106</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>handIn</sender>
+   <signal>clicked()</signal>
+   <receiver>DataSourceConfig_UI</receiver>
+   <slot>slotAccept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>335</x>
+     <y>185</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>255</x>
+     <y>106</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>cancel</sender>
+   <signal>clicked()</signal>
+   <receiver>DataSourceConfig_UI</receiver>
+   <slot>slotCancel()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>445</x>
+     <y>185</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>255</x>
+     <y>106</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>slotSelectDataSourcePath()</slot>
+  <slot>slotAccept()</slot>
+  <slot>slotCancel()</slot>
+ </slots>
+</ui>

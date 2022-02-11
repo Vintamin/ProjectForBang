@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>touranalysis</class>
+ <widget class="QWidget" name="touranalysis">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>486</width>
+    <height>117</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>游览分析</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>80</y>
+     <width>54</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>录制游览</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>80</y>
+     <width>54</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>结束游览</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>80</y>
+     <width>54</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>播放游览</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>80</y>
+     <width>54</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>终止播放</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>80</y>
+     <width>54</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>暂停播放</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>80</y>
+     <width>54</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>清除游览</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="luzhiToutBtn">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#luzhiToutBtn
+{
+	
+	border: 2px solid #9ea1a4;
+	border-radius: 8px;
+    image: url(:/MyProjectUI/Resources/img/startTour.png)
+	
+	
+}
+QPushButton#luzhiToutBtn:hover	
+{
+	background-color: rgb(188, 255, 250);
+	border: 2px solid #9ea1a4;
+	border-radius: 8px;
+    image: url(:/MyProjectUI/Resources/img/startTour.png)
+	
+	
+}
+QPushButton#luzhiToutBtn:pressed
+{
+	background-color: rgb(0, 255, 255);
+	border: 2px solid #9ea1a4;
+	border-radius: 8px;
+    image: url(:/MyProjectUI/Resources/img/startTour.png)
+	
+	
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="jieshuTourBtn">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>20</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#jieshuTourBtn
+{
+	
+	border: 2px solid #9ea1a4;
+	border-radius: 8px;
+	image: url(:/MyProjectUI/Resources/img/stopRecord.png);
+	
+	
+}
+QPushButton#jieshuTourBtn:hover
+{
+	background-color: rgb(188, 255, 250);
+	border: 2px solid #9ea1a4;
+	border-radius: 8px;
+	image: url(:/MyProjectUI/Resources/img/stopRecord.png);
+	
+	
+}
+QPushButton#jieshuTourBtn:pressed
+{
+	background-color: rgb(0, 255, 255);
+	border: 2px solid #9ea1a4;
+	border-radius: 8px;
+	image: url(:/MyProjectUI/Resources/img/stopRecord.png);
+	
+	
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="playTourBtn">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>20</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#playTourBtn
+{
+	
+	border: 2px solid #9ea1a4;
+	border-radius: 8px;
+	image: url(:/MyProjectUI/Resources/img/startPlay.png);
+	
+	
+}
+QPushButton#playTourBtn:hover	
+{
+	background-color: rgb(188, 255, 250);
+	border: 2px solid #9ea1a4;
+	border-radius: 8px;
+	image: url(:/MyProjectUI/Resources/img/startPlay.png);
+	
+	
+}
+QPushButton#playTourBtn:pressed
+{
+	background-color: rgb(0, 255, 255);
+	border: 2px solid #9ea1a4;
+	border-radius: 8px;
+	image: url(:/MyProjectUI/Resources/img/startPlay.png);
+	
+	
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pauseTour">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>20</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pauseTour
+{
+	
+	border: 2px solid #9ea1a4;
+	border-radius: 8px;
+	image: url(:/MyProjectUI/Resources/img/pausePlay.png);
+	
+	
+}
+QPushButton#pauseTour:hover
+{
+	background-color: rgb(188, 255, 250);
+	border: 2px solid #9ea1a4;
+	border-radius: 8px;
+	image: url(:/MyProjectUI/Resources/img/pausePlay.png);
+	
+	
+}
+QPushButton#pauseTour:pressed
+{
+	background-color: rgb(0, 255, 255);
+	border: 2px solid #9ea1a4;
+	border-radius: 8px;
+	image: url(:/MyProjectUI/Resources/img/pausePlay.png);
+	
+	
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="stopPlayBtn">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>20</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#stopPlayBtn
+{
+	
+	border: 2px solid #9ea1a4;
+	border-radius: 8px;
+	image: url(:/MyProjectUI/Resources/img/stopPlay.png);
+	
+	
+}
+QPushButton#stopPlayBtn:hover
+{
+	background-color: rgb(188, 255, 250);
+	border: 2px solid #9ea1a4;
+	border-radius: 8px;
+	image: url(:/MyProjectUI/Resources/img/stopPlay.png);
+	
+	
+}
+QPushButton#stopPlayBtn:pressed
+{
+	background-color: rgb(188, 255, 250);
+	border: 2px solid #9ea1a4;
+	border-radius: 8px;
+	image: url(:/MyProjectUI/Resources/img/stopPlay.png);
+	
+	
+}  </string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="clearTourBtn">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>20</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#clearTourBtn
+{
+	
+	border: 2px solid #9ea1a4;
+	border-radius: 8px;
+	image: url(:/MyProjectUI/Resources/img/clear.png);
+	
+	
+}
+QPushButton#clearTourBtn:hover	
+{
+	background-color: rgb(188, 255, 250);
+	border: 2px solid #9ea1a4;
+	border-radius: 8px;
+	image: url(:/MyProjectUI/Resources/img/clear.png);
+	
+	
+}
+QPushButton#clearTourBtn:pressed
+{
+	background-color: rgb(0, 255, 255);
+	border: 2px solid #9ea1a4;
+	border-radius: 8px;
+	image: url(:/MyProjectUI/Resources/img/clear.png);
+	
+	
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../../../MyProjectUI/myprojectui.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CED7D107-012A-4E14-B988-58C6C1C06619}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>VR_SpatialRender</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)\bin\$(Configuration)\</OutDir>
+    <EmbedManifest>false</EmbedManifest>
+    <TargetName>$(ProjectName)_d</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)\bin\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;VR_SPATIALRENDER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\jni\include;$(SolutionDir)\jni\include\boost</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);$(SolutionDir)\jni\lib\ogre\debug;$(SolutionDir)\jni\lib\boost</AdditionalLibraryDirectories>
+      <AdditionalDependencies>VR_Core_d.lib;VR_SpatialObject_d.lib;VR_Arithmetic_d.lib;VR_Style_d.lib;VR_SpatialInterface_d.lib;OgreMain_d.lib;VR_Geometry_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;VR_SPATIALRENDER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\jni\include;$(SolutionDir)\jni\include\boost</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(OutDir);$(SolutionDir)\jni\lib\ogre\release;$(SolutionDir)\jni\lib\boost</AdditionalLibraryDirectories>
+      <AdditionalDependencies>VR_Core.lib;VR_SpatialObject.lib;VR_Arithmetic.lib;VR_Style.lib;VR_SpatialInterface.lib;OgreMain.lib;VR_Geometry.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\vrmine\vr_spatialrender\baserender\broadline.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialrender\baserender\geomultirenderableobject.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialrender\baserender\georenderableobject.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialrender\baserender\moveabletext.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialrender\baserender\multiline.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialrender\baserender\multipoint.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialrender\baserender\multipolygon.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialrender\lanewaypiperender\lanewayrenderforbang.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialrender\lanewaypiperender\pipeline.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialrender\spatialrender\coalseamrenderableobject.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialrender\spatialrender\drillrenderableobject.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialrender\spatialrender\faultrenderableobject.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialrender\spatialrender\lanewayrenderableprogress.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialrender\spatialrender\minerenderableobject.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialrender\spatialrender\surfacerenderableobject.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialrender\spatialrender\lanewayrenderableobject.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialrender\spatialrender\terranerenderobject.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialrender\spatialrender\workplanerenderableobject.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialrender\spatialrender_config.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="broadline.cpp" />
+    <ClCompile Include="coalseamrenderableobject.cpp" />
+    <ClCompile Include="drillrenderableobject.cpp" />
+    <ClCompile Include="faultrenderableobject.cpp" />
+    <ClCompile Include="geomultirenderableobject.cpp" />
+    <ClCompile Include="georenderableobject.cpp" />
+    <ClCompile Include="lanewayrenderableobject.cpp" />
+    <ClCompile Include="lanewayrenderableprogress.cpp" />
+    <ClCompile Include="lanewayrenderforbang.cpp" />
+    <ClCompile Include="minerenderableobject.cpp" />
+    <ClCompile Include="moveabletext.cpp" />
+    <ClCompile Include="multiline.cpp" />
+    <ClCompile Include="multipoint.cpp" />
+    <ClCompile Include="pipeline.cpp" />
+    <ClCompile Include="surfacerenderableobject.cpp" />
+    <ClCompile Include="terranerenderobject.cpp" />
+    <ClCompile Include="workplanerenderableobject.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

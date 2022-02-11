@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SeverConfigWidget</class>
+ <widget class="QWidget" name="SeverConfigWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>315</width>
+    <height>307</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>315</width>
+    <height>307</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>315</width>
+    <height>307</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>远程数据配置</string>
+  </property>
+  <property name="windowOpacity">
+   <double>1.000000000000000</double>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_3">
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout_6">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_5">
+       <item>
+        <widget class="QGroupBox" name="groupBox">
+         <property name="title">
+          <string>数据库配置</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout">
+          <item row="0" column="0">
+           <layout class="QHBoxLayout" name="horizontalLayout">
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout">
+              <item>
+               <widget class="QLabel" name="label">
+                <property name="text">
+                 <string>类型</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_2">
+                <property name="text">
+                 <string>服务器</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_3">
+                <property name="text">
+                 <string>用户名</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_4">
+                <property name="text">
+                 <string>密码</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_5">
+                <property name="text">
+                 <string>数据库</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_2">
+              <item>
+               <widget class="QComboBox" name="typeCbb">
+                <item>
+                 <property name="text">
+                  <string>SQL SERVER</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="severtext"/>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="usertext"/>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="passwordtext">
+                <property name="echoMode">
+                 <enum>QLineEdit::Password</enum>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="databasetext"/>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox_2">
+         <property name="title">
+          <string>实时数据配置</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_2">
+          <item row="0" column="0">
+           <layout class="QHBoxLayout" name="horizontalLayout_2">
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_3">
+              <item>
+               <widget class="QLabel" name="label_6">
+                <property name="text">
+                 <string>模拟量</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_7">
+                <property name="text">
+                 <string>开关量</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_4">
+              <item>
+               <widget class="QLineEdit" name="simutext"/>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="switchtext"/>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QPushButton" name="okbtn">
+         <property name="maximumSize">
+          <size>
+           <width>66</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>确定</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="cancelbtn">
+         <property name="maximumSize">
+          <size>
+           <width>66</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>取消</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>typeCbb</tabstop>
+  <tabstop>severtext</tabstop>
+  <tabstop>usertext</tabstop>
+  <tabstop>passwordtext</tabstop>
+  <tabstop>databasetext</tabstop>
+  <tabstop>simutext</tabstop>
+  <tabstop>switchtext</tabstop>
+  <tabstop>okbtn</tabstop>
+  <tabstop>cancelbtn</tabstop>
+ </tabstops>
+ <resources>
+  <include location="dlgresource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

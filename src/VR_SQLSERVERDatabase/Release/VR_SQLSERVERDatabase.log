@@ -1,0 +1,25 @@
+﻿生成启动时间为 15-9-4 13:22:16。
+     1>项目“E:\code2.0\jni\src\VR_SQLSERVERDatabase\VR_SQLSERVERDatabase.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\VR_SQLSERVERDatabase.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\code2.0\\bin\Release\VR_SQLSERVERDatabase.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:E:\code2.0\\jni\lib\ogre\release /LIBPATH:E:\code2.0\\bin\Release\ /LIBPATH:E:\code2.0\\jni\lib\boost VR_DatabaseEngine.lib VR_Core.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\VR_SQLSERVERDatabase.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"E:\code2.0\bin\Release\VR_SQLSERVERDatabase.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\code2.0\\bin\Release\VR_SQLSERVERDatabase.lib" /MACHINE:X86 /DLL Release\adoconnect.obj
+         Release\odbcconnect.obj
+            正在创建库 E:\code2.0\\bin\Release\VR_SQLSERVERDatabase.lib 和对象 E:\code2.0\\bin\Release\VR_SQLSERVERDatabase.exp
+         正在生成代码
+     1>e:\code2.0\jni\src\vr_sqlserverdatabase\odbcconnect.cpp(243): warning C4715: “VirtualMine::SQLServerDatabase::CSQLServerDatasource::createDataset”: 不是所有的控件路径都返回值
+     1>e:\code2.0\jni\src\vr_sqlserverdatabase\adoconnect.cpp(230): warning C4715: “VirtualMine::SQLServerDatabase::CSQLSERVERDatabase::createDataset”: 不是所有的控件路径都返回值
+         已完成代码的生成
+         VR_SQLSERVERDatabase.vcxproj -> E:\code2.0\\bin\Release\VR_SQLSERVERDatabase.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"E:\code2.0\\bin\Release\VR_SQLSERVERDatabase.dll.manifest" /manifest Release\VR_SQLSERVERDatabase.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\VR_SQLSERVERDatabase.unsuccessfulbuild”。
+         正在对“Release\VR_SQLSERVERDatabase.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\code2.0\jni\src\VR_SQLSERVERDatabase\VR_SQLSERVERDatabase.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.65

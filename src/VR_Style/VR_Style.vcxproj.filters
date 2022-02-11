@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{b46cae4d-dba6-4e8b-9abb-3f52273c8a10}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\vrmine\vr_style\style\docktype.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_style\style\linestyle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_style\style\modelstyle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_style\style\pointstyle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_style\style\styletype.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_style\style\surfacestyle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_style\style\textstyle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_style\style_config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_style\style\lanewaystyle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_style\style\drillholestyle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_style\style\coalseamstyle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_style\style\miningareastyle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_style\style\faultstyle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_style\style\minestyle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_style\style\workingplanestyle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_style\style\terranestyle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_style\style\shotholestyle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_style\style\pipestyle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_style\style\prolanewaystyle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pointstyle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="surfacestyle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="textstyle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="modelstyle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lanewaystyle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="drillholestyle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="coalseamstyle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="miningareastyle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="faultstyle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="minestyle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="workingplanestyle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="terranestyle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="linestyle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shotholestyle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pipestyle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prolanwaystyle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\VR_Plugins\VR_DataSourceTreeWidget\vrdatasourcetreewidgetplugin.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\include\vrmine\vr_plugins\vrdatasourcetreewidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

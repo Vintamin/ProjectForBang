@@ -1,0 +1,19 @@
+﻿生成启动时间为 15-9-4 13:12:24。
+     1>项目“E:\code2.0\jni\src\bang\Bang_Render\Bang_Render.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Release\Bang_Render.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\code2.0\\bin\Release\Bang_Render.dll" /NOLOGO /LIBPATH:E:\code2.0\\bin\Release\ /LIBPATH:E:\code2.0\\jni\lib\ogre\release /LIBPATH:E:\code2.0\\jni\lib\boost VR_Core.lib VR_SpatialObject.lib VR_Arithmetic.lib VR_Style.lib VR_SpatialInterface.lib OgreMain.lib VR_Geometry.lib VR_SpatialRender.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Bang_Render.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"E:\code2.0\bin\Release\Bang_Render.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\code2.0\\bin\Release\Bang_Render.lib" /MACHINE:X86 /DLL Release\embrasure_geometry.obj
+         Release\embrasure_layer.obj
+         Release\embrasure_meshcreator.obj
+         Release\embrasure_object.obj
+         Release\embrasure_property.obj
+         Release\embrasure_renderobject.obj
+     1>LINK : fatal error LNK1104: 无法打开文件“E:\code2.0\\bin\Release\Bang_Render.dll”
+     1>已完成生成项目“E:\code2.0\jni\src\bang\Bang_Render\Bang_Render.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.12

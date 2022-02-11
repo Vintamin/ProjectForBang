@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SafeSolution_UI</class>
+ <widget class="QWidget" name="SafeSolution_UI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>502</width>
+    <height>269</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>救援方案参数设置</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>431</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>参数设置</string>
+   </property>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>最优点分析半径</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>40</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>分析密度</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>80</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>每个方向的
+分析点个数</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>采样点的垂直偏移</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelddd">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>130</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>坡度阈值</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>40</y>
+      <width>101</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QDoubleSpinBox" name="analysisRadius">
+       <property name="maximum">
+        <double>10000.000000000000000</double>
+       </property>
+       <property name="value">
+        <double>10.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>米</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>90</y>
+      <width>101</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QDoubleSpinBox" name="verticalOffset">
+       <property name="value">
+        <double>2.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_12">
+       <property name="text">
+        <string>米</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>140</y>
+      <width>101</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QDoubleSpinBox" name="optimalAngle">
+       <property name="value">
+        <double>10.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_13">
+       <property name="text">
+        <string>度</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>40</y>
+      <width>80</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <widget class="QDoubleSpinBox" name="analysisDensity">
+       <property name="maximum">
+        <double>200.000000000000000</double>
+       </property>
+       <property name="value">
+        <double>60.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_15">
+       <property name="text">
+        <string>个</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>90</y>
+      <width>81</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_5">
+     <item>
+      <widget class="QDoubleSpinBox" name="analysisPointCount">
+       <property name="value">
+        <double>20.000000000000000</double>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_14">
+       <property name="text">
+        <string>个</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>54</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>方案名称</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="solutionName">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>10</y>
+     <width>351</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="handIn">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>230</y>
+     <width>75</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>提交</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cacel">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>230</y>
+     <width>75</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>handIn</sender>
+   <signal>clicked()</signal>
+   <receiver>SafeSolution_UI</receiver>
+   <slot>slotHandIn()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>277</x>
+     <y>205</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>239</x>
+     <y>116</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>cacel</sender>
+   <signal>clicked()</signal>
+   <receiver>SafeSolution_UI</receiver>
+   <slot>slotCancel()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>387</x>
+     <y>205</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>239</x>
+     <y>116</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>slotHandIn()</slot>
+  <slot>slotCancel()</slot>
+ </slots>
+</ui>

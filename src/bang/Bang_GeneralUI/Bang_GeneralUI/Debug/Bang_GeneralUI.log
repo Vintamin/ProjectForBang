@@ -1,0 +1,63 @@
+﻿生成启动时间为 2022/1/7 12:02:04。
+     1>项目“F:\C++\code2.0\jni\src\bang\Bang_GeneralUI\Bang_GeneralUI\Bang_GeneralUI.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\Bang_GeneralUI.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         所有输出均为最新。
+       ClCompile:
+         E:\VS2010\install-vs\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /I"E:\VS2010\QT4.8.6\QT-4.8.6install\include" /I.\GeneratedFiles\Debug /I"E:\VS2010\QT4.8.6\QT-4.8.6install\include\QtCore" /I"E:\VS2010\QT4.8.6\QT-4.8.6install\include\QtGui" /IF:\C++\code2.0\\jni\include /IF:\C++\code2.0\\jni\include\boost /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QVR_BANG_GENERALUI_EXPORT_WIDGETS /D _WINDLL /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Debug\moc_mytest.cpp mytest.cpp
+         moc_mytest.cpp
+         mytest.cpp
+         正在生成代码...
+         所有输出均为最新。
+       Link:
+         E:\VS2010\install-vs\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\C++\code2.0\\bin\Debug\\Bang_GeneralUI_d.dll" /NOLOGO /LIBPATH:"E:\VS2010\QT4.8.6\QT-4.8.6install\lib" /LIBPATH:F:\C++\code2.0\\jni\lib\boost /LIBPATH:F:\C++\code2.0\\jni\lib\ogre\debug /LIBPATH:F:\C++\code2.0\\bin\Debug\ qtmaind.lib QtDesignerd4.lib QtCored4.lib QtGuid4.lib phonond4.lib OgreMain_d.lib VR_SpatialInterface_d.lib VR_Core_d.lib VR_SQLDataBaseHelper_d.lib VR_SystemUI_d.lib VR_ProjectManager_d.lib VR_DatabaseEngine_d.lib VR_Solutions_d.lib VR_HttpHelper_d.lib VR_SceneControl_d.lib VR_SpatialObject_d.lib VR_Geometry_d.lib VR_SpatialAnalyse_d.lib VR_Style_d.lib VR_SpatialEngine_d.lib VR_SpatialLayer_d.lib VR_Kml_d.lib VR_SqliteDatabase_d.lib VR_MathEngine_d.lib VR_SpatialRender_d.lib Bang_DatabaseEngine_d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Bang_GeneralUI_d.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\C++\code2.0\bin\Debug\Bang_GeneralUI_d.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\C++\code2.0\\bin\Debug\Bang_GeneralUI_d.lib" /MACHINE:X86 /DLL Debug\advanceschedule.obj
+         Debug\blastingeffectdlg.obj
+         Debug\boreholeparametersdlg.obj
+         Debug\changepassworddlg.obj
+         Debug\coalconditiondlg.obj
+         Debug\coalmechanicalparametersdlg.obj
+         Debug\drillingmachinetyped_Trolleydlg.obj
+         Debug\drillingmachinetyped_ytdlg.obj
+         Debug\explosiveinventorydocumentsdlg.obj
+         Debug\explosivemagazinetabledlg.obj
+         Debug\moc_advanceschedule.obj
+         Debug\moc_blastingeffectdlg.obj
+         Debug\moc_boreholeparametersdlg.obj
+         Debug\moc_changepassworddlg.obj
+         Debug\moc_coalconditiondlg.obj
+         Debug\moc_coalmechanicalparametersdlg.obj
+         Debug\moc_drillingmachinetyped_Trolleydlg.obj
+         Debug\moc_drillingmachinetyped_ytdlg.obj
+         Debug\moc_explosiveinventorydocumentsdlg.obj
+         Debug\moc_explosivemagazinetabledlg.obj
+         Debug\moc_lanewaysectionpaintdlg.obj
+         Debug\moc_logindlg.obj
+         Debug\moc_mytest.obj
+         Debug\moc_openprojectdlg.obj
+         Debug\moc_projectdesigndlg.obj
+         Debug\moc_projectsummarydlg.obj
+         Debug\moc_safeevacuationroutedlg.obj
+         Debug\moc_usersinformationdlg.obj
+         Debug\qrc_bang_generalui.obj
+         Debug\lanewaysectionpaintdlg.obj
+         Debug\logindlg.obj
+         Debug\mytest.obj
+         Debug\openprojectdlg.obj
+         Debug\projectdesigndlg.obj
+         Debug\projectsummarydlg.obj
+         Debug\safeevacuationroutedlg.obj
+         Debug\usersinformationdlg.obj
+         LINK : 没有找到 F:\C++\code2.0\\bin\Debug\\Bang_GeneralUI_d.dll 或上一个增量链接没有生成它；正在执行完全链接
+            正在创建库 F:\C++\code2.0\\bin\Debug\Bang_GeneralUI_d.lib 和对象 F:\C++\code2.0\\bin\Debug\Bang_GeneralUI_d.exp
+         Bang_GeneralUI.vcxproj -> F:\C++\code2.0\\bin\Debug\Bang_GeneralUI_d.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\C++\code2.0\\bin\Debug\\Bang_GeneralUI_d.dll;#2" /manifest Debug\Bang_GeneralUI_d.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\Bang_GeneralUI.unsuccessfulbuild”。
+         正在对“Debug\Bang_GeneralUI.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\C++\code2.0\jni\src\bang\Bang_GeneralUI\Bang_GeneralUI\Bang_GeneralUI.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.07

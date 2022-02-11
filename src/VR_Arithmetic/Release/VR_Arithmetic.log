@@ -1,0 +1,34 @@
+﻿生成启动时间为 15-9-4 13:28:17。
+     1>项目“E:\code2.0\jni\src\VR_Arithmetic\VR_Arithmetic.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\VR_Arithmetic.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\code2.0\\bin\Release\VR_Arithmetic.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:E:\code2.0\\bin\Release\ /LIBPATH:E:\code2.0\\jni\lib\ogre\release /LIBPATH:E:\code2.0\\jni\lib\boost /LIBPATH:E:\code2.0\\jni\lib\glut glut32.lib glut.lib "libboost_thread-vc100-mt-1_56.lib" "libgmp-10.lib" VR_Core.lib VR_SpatialObject.lib VR_Geometry.lib VR_Style.lib VR_MathEngine.lib OgreMain.lib VR_SpatialInterface.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\VR_Arithmetic.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"E:\code2.0\bin\Release\VR_Arithmetic.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\code2.0\\bin\Release\VR_Arithmetic.lib" /MACHINE:X86 /DLL Release\coalseam_meshcreator.obj
+         Release\Delaunaymath.obj
+         Release\drill_meshcreator.obj
+         Release\fault_meshcreator.obj
+         Release\geomeshcreatorregister.obj
+         Release\geometryarithmeticlibrary.obj
+         Release\isocontour.obj
+         Release\laneway_meshcreator.obj
+         Release\mine_meshcreator.obj
+         Release\miningarea_meshcreator.obj
+         Release\rectflood_meshcreator.obj
+         Release\terrane_meshcreator.obj
+         Release\workingplane_meshcreator.obj
+            正在创建库 E:\code2.0\\bin\Release\VR_Arithmetic.lib 和对象 E:\code2.0\\bin\Release\VR_Arithmetic.exp
+         正在生成代码
+         已完成代码的生成
+         VR_Arithmetic.vcxproj -> E:\code2.0\\bin\Release\VR_Arithmetic.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\code2.0\\bin\Release\VR_Arithmetic.dll;#2" /manifest Release\VR_Arithmetic.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\VR_Arithmetic.unsuccessfulbuild”。
+         正在对“Release\VR_Arithmetic.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\code2.0\jni\src\VR_Arithmetic\VR_Arithmetic.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:29.27

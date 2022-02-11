@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PeopleTraceWidget</class>
+ <widget class="QWidget" name="PeopleTraceWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>345</width>
+    <height>311</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>345</width>
+    <height>311</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>345</width>
+    <height>311</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>历史轨迹查询</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_3">
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout_4">
+     <item>
+      <widget class="QGroupBox" name="groupBox">
+       <property name="title">
+        <string/>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="0" column="0">
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout">
+            <item>
+             <widget class="QLabel" name="label">
+              <property name="maximumSize">
+               <size>
+                <width>70</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>起始时间</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_2">
+              <property name="maximumSize">
+               <size>
+                <width>70</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>结束时间</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_3">
+              <property name="maximumSize">
+               <size>
+                <width>70</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>部门</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_4">
+              <property name="maximumSize">
+               <size>
+                <width>70</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>姓名</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_2">
+            <item>
+             <widget class="QDateEdit" name="dateEditStart">
+              <property name="date">
+               <date>
+                <year>2013</year>
+                <month>8</month>
+                <day>7</day>
+               </date>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QDateEdit" name="dateEditEnd">
+              <property name="date">
+               <date>
+                <year>2013</year>
+                <month>8</month>
+                <day>8</day>
+               </date>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="departmentCbb">
+              <property name="minimumSize">
+               <size>
+                <width>120</width>
+                <height>0</height>
+               </size>
+              </property>
+              <item>
+               <property name="text">
+                <string>抽采队</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>机采二队</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>开拓一队</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>通修二队</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>安全生产管理人员</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>救护</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>预测班</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>掘一队</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>来宾</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>采五队</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>通修一队</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>开拓二队</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>掘三队</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>通修三队</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>开拓三队</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>公司领导</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>机采一队</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>皮带运输队</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>运输队</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>瓦检</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>掘二队</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>机电队</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>综采队</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="nameCbb"/>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_3">
+            <item>
+             <widget class="QPushButton" name="showBtn">
+              <property name="maximumSize">
+               <size>
+                <width>65</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>查询</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="verticalSpacer">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>40</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QGroupBox" name="groupBox_2">
+       <property name="title">
+        <string>轨迹信息</string>
+       </property>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="0" column="0">
+         <widget class="QTableWidget" name="traceTable">
+          <attribute name="verticalHeaderVisible">
+           <bool>false</bool>
+          </attribute>
+          <column>
+           <property name="text">
+            <string>序号</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>测点位置</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>到达时间</string>
+           </property>
+          </column>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>dateEditStart</tabstop>
+  <tabstop>dateEditEnd</tabstop>
+  <tabstop>departmentCbb</tabstop>
+  <tabstop>nameCbb</tabstop>
+  <tabstop>showBtn</tabstop>
+  <tabstop>traceTable</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+ <slots>
+  <slot>slotDepartmentChanged(QString)</slot>
+ </slots>
+</ui>

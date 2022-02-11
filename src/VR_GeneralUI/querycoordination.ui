@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QueryCoordinationForm</class>
+ <widget class="QWidget" name="QueryCoordinationForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>110</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>查询坐标</string>
+  </property>
+  <widget class="QPushButton" name="queryBtn">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>60</y>
+     <width>101</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>查询</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>455</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_4">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>X</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEditX"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>Y</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEditY"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Z</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEditZ"/>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,118 @@
+﻿生成启动时间为 15-9-17 21:23:47。
+     1>项目“E:\code2.0\jni\src\VR_GeneralUI\VR_GeneralUI.vcxproj”在节点 3 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\VR_GeneralUI.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         所有输出均为最新。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\4.8.6\include /I.\GeneratedFiles\Debug /IC:\Qt\4.8.6\include\QtDesigner /IC:\Qt\4.8.6\include\QtCore /IC:\Qt\4.8.6\include\QtGui /IC:\Qt\4.8.6\include\QtXml /IE:\code2.0\\jni\include /IE:\code2.0\\jni\include\boost /IC:\Qt\4.8.6\include\QtSql /IC:\Qt\4.8.6\include\phonon /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_PLUGIN /D QVR_GENERALUI_EXPORT_WIDGETS /D QT_CORE_LIB /D QT_GUI_LIB /D QT_PHONON_LIB /D _WINDLL /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Debug\moc_addsolutiondlg.cpp GeneratedFiles\Debug\moc_drillingsaveanalysisdlg.cpp GeneratedFiles\Debug\moc_safesolutionDlg.cpp addsolutiondlg.cpp drillingsaveanalysisdlg.cpp layerpropertyDlg.cpp modelpropertyDlg.cpp safesolutionDlg.cpp severconfigDlg.cpp
+         moc_addsolutiondlg.cpp
+     1>E:\code2.0\jni\include\vrmine/vr_core/coredefine.h(80): warning C4091: “typedef ”: 没有声明变量时忽略“point_2D”的左侧
+     1>E:\code2.0\jni\include\vrmine\vr_spatialinterface\parameter.h(15): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+         moc_drillingsaveanalysisdlg.cpp
+     1>E:\code2.0\jni\include\vrmine/vr_core/coredefine.h(80): warning C4091: “typedef ”: 没有声明变量时忽略“point_2D”的左侧
+     1>E:\code2.0\jni\include\vrmine\vr_spatialinterface\parameter.h(15): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+         moc_safesolutionDlg.cpp
+     1>E:\code2.0\jni\include\vrmine\vr_core\coredefine.h(80): warning C4091: “typedef ”: 没有声明变量时忽略“point_2D”的左侧
+     1>E:\code2.0\jni\include\vrmine\vr_spatialinterface\parameter.h(15): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+         addsolutiondlg.cpp
+     1>E:\code2.0\jni\include\vrmine/vr_core/coredefine.h(80): warning C4091: “typedef ”: 没有声明变量时忽略“point_2D”的左侧
+     1>E:\code2.0\jni\include\vrmine\vr_spatialinterface\parameter.h(15): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+         drillingsaveanalysisdlg.cpp
+     1>E:\code2.0\jni\include\vrmine/vr_core/coredefine.h(80): warning C4091: “typedef ”: 没有声明变量时忽略“point_2D”的左侧
+     1>E:\code2.0\jni\include\vrmine\vr_spatialinterface\parameter.h(15): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+         layerpropertyDlg.cpp
+     1>E:\code2.0\jni\include\vrmine/vr_core/coredefine.h(80): warning C4091: “typedef ”: 没有声明变量时忽略“point_2D”的左侧
+     1>E:\code2.0\jni\include\vrmine\vr_spatialinterface\parameter.h(15): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+         modelpropertyDlg.cpp
+     1>E:\code2.0\jni\include\vrmine/vr_core/coredefine.h(80): warning C4091: “typedef ”: 没有声明变量时忽略“point_2D”的左侧
+     1>E:\code2.0\jni\include\vrmine\vr_spatialinterface\parameter.h(15): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>E:\code2.0\jni\include\vrmine/vr_spatialobject/mine/modelobject.h(39): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“VirtualMine::Core::DeviceType”
+     1>E:\code2.0\jni\include\vrmine/vr_spatialinterface/parameter.h(15): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>E:\code2.0\jni\include\vrmine/vr_spatialobject/geoproperty/modelProperty.h(39): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“VirtualMine::Core::DeviceType”
+     1>modelpropertyDlg.cpp(127): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“VirtualMine::GeneralUI::ModelDlgType”
+     1>modelpropertyDlg.cpp(161): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“VirtualMine::GeneralUI::ModelDlgType”
+     1>modelpropertyDlg.cpp(165): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“VirtualMine::GeneralUI::ModelDlgType”
+     1>modelpropertyDlg.cpp(263): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“VirtualMine::GeneralUI::ModelDlgType”
+     1>modelpropertyDlg.cpp(266): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“VirtualMine::GeneralUI::ModelDlgType”
+         safesolutionDlg.cpp
+     1>E:\code2.0\jni\include\vrmine\vr_core\coredefine.h(80): warning C4091: “typedef ”: 没有声明变量时忽略“point_2D”的左侧
+     1>E:\code2.0\jni\include\vrmine\vr_spatialinterface\parameter.h(15): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+         severconfigDlg.cpp
+     1>E:\code2.0\jni\include\vrmine/vr_core/coredefine.h(80): warning C4091: “typedef ”: 没有声明变量时忽略“point_2D”的左侧
+     1>E:\code2.0\jni\include\vrmine\vr_spatialinterface\parameter.h(15): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\code2.0\\bin\Debug\\VR_GeneralUI_d.dll" /NOLOGO /LIBPATH:C:\Qt\4.8.6\lib /LIBPATH:E:\code2.0\\bin\Debug\ /LIBPATH:E:\code2.0\\jni\lib\boost /LIBPATH:E:\code2.0\\jni\lib\ogre\debug qtmaind.lib QtDesignerd4.lib QtCored4.lib QtGuid4.lib QtSqld4.lib QtXmld4.lib phonond4.lib OgreMain_d.lib VR_SpatialInterface_d.lib VR_Core_d.lib VR_SQLDataBaseHelper_d.lib VR_SystemUI_d.lib VR_ProjectManager_d.lib VR_DatabaseEngine_d.lib VR_Solutions_d.lib VR_HttpHelper_d.lib VR_SceneControl_d.lib VR_SpatialObject_d.lib VR_Geometry_d.lib VR_SpatialAnalyse_d.lib VR_Style_d.lib VR_SpatialEngine_d.lib VR_SpatialLayer_d.lib VR_Kml_d.lib VR_SqliteDatabase_d.lib VR_MathEngine_d.lib VR_SpatialRender_d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\VR_GeneralUI_d.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\code2.0\bin\Debug\VR_GeneralUI_d.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\code2.0\\bin\Debug\VR_GeneralUI_d.lib" /MACHINE:X86 /DLL Debug\addsolutiondlg.obj
+         Debug\allmonitorDlg.obj
+         Debug\basedialog.obj
+         Debug\boardinfo.obj
+         Debug\drillingsaveanalysisdlg.obj
+         Debug\floodanalysisDlg.obj
+         Debug\moc_addsolutiondlg.obj
+         Debug\moc_allmonitorDlg.obj
+         Debug\moc_basedialog.obj
+         Debug\moc_boardinfo.obj
+         Debug\moc_drillingsaveanalysisdlg.obj
+         Debug\moc_floodanalysisDlg.obj
+         Debug\moc_globalmonitorDlg.obj
+         Debug\moc_layerpropertyDlg.obj
+         Debug\moc_loadvideodlg.obj
+         Debug\moc_localdatasourceDlg.obj
+         Debug\moc_locationpropertyDlg.obj
+         Debug\moc_modelpropertyDlg.obj
+         Debug\moc_peopletraceDlg.obj
+         Debug\moc_projectlistDlg.obj
+         Debug\moc_propertyquerydlg.obj
+         Debug\moc_querycoordinationdlg.obj
+         Debug\moc_querylanewaydlg.obj
+         Debug\moc_realpeoplequeryDlg.obj
+         Debug\moc_regesterdlg.obj
+         Debug\moc_safesolutionDlg.obj
+         Debug\moc_severconfigDlg.obj
+         Debug\moc_simupropertyDlg.obj
+         Debug\moc_simuvalueDlg.obj
+         Debug\moc_spatialsnalysisdlg.obj
+         Debug\moc_switchpropertyDlg.obj
+         Debug\moc_switchvalueDlg.obj
+         Debug\moc_systemsetting.obj
+         Debug\moc_touranalysisdlg.obj
+         Debug\moc_vr_generalui.obj
+         Debug\moc_vr_generaluiplugin.obj
+         Debug\globalmonitorDlg.obj
+         Debug\layerpropertyDlg.obj
+         Debug\loadvideo.obj
+         Debug\localdatasourceDlg.obj
+         Debug\locationpropertyDlg.obj
+         Debug\modelpropertyDlg.obj
+         Debug\peopletraceDlg.obj
+         Debug\projectlistDlg.obj
+         Debug\propertyquerydlg.obj
+         Debug\querycoordinationdlg.obj
+         Debug\querylanewaydlg.obj
+         Debug\realpeoplequeryDlg.obj
+         Debug\regesterdlg.obj
+         Debug\safesolutionDlg.obj
+         Debug\severconfigDlg.obj
+         Debug\simupropertyDlg.obj
+         Debug\simuvalueDlg.obj
+         Debug\spatialanalysisdlg.obj
+         Debug\switchpropertyDlg.obj
+         Debug\switchvalueDlg.obj
+         Debug\systemsetting.obj
+         Debug\touranalysisdlg.obj
+         Debug\vr_generalui.obj
+         Debug\vr_generaluiplugin.obj
+         LINK : 没有找到 E:\code2.0\\bin\Debug\\VR_GeneralUI_d.dll 或上一个增量链接没有生成它；正在执行完全链接
+            正在创建库 E:\code2.0\\bin\Debug\VR_GeneralUI_d.lib 和对象 E:\code2.0\\bin\Debug\VR_GeneralUI_d.exp
+         VR_GeneralUI.vcxproj -> E:\code2.0\\bin\Debug\VR_GeneralUI_d.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\code2.0\\bin\Debug\\VR_GeneralUI_d.dll;#2" /manifest Debug\VR_GeneralUI_d.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\VR_GeneralUI.unsuccessfulbuild”。
+         正在对“Debug\VR_GeneralUI.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\code2.0\jni\src\VR_GeneralUI\VR_GeneralUI.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:02:07.11

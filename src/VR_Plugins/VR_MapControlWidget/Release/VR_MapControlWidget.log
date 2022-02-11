@@ -1,0 +1,25 @@
+﻿生成启动时间为 15-9-15 10:37:11。
+     1>项目“E:\code2.0\jni\src\VR_Plugins\VR_MapControlWidget\VR_MapControlWidget.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\VRMapControlWidget.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         所有输出均为最新。
+       ClCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\code2.0\\bin\Release\\VRMapControlWidget.dll" /NOLOGO /LIBPATH:C:\Qt\4.8.6\lib /LIBPATH:E:\code2.0\\bin\Release\ /LIBPATH:E:\code2.0\\jni\lib\boost /LIBPATH:E:\code2.0\\jni\lib\ogre\release qtmain.lib QtDesigner4.lib QtCore4.lib QtGui4.lib QtXml4.lib VR_Core.lib OgreMain.lib VR_MapLayer.lib VR_SpatialInterface.lib VR_SpatialEngine.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\VRMapControlWidget.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"E:\code2.0\bin\Release\VRMapControlWidget.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\code2.0\\bin\Release\VRMapControlWidget.lib" /MACHINE:X86 /DLL Release\moc_vr_mapcontrolwidget.obj
+         Release\moc_vr_mapcontrolwidgetplugin.obj
+         Release\vr_mapcontrolwidget.obj
+         Release\vr_mapcontrolwidgetplugin.obj
+            正在创建库 E:\code2.0\\bin\Release\VRMapControlWidget.lib 和对象 E:\code2.0\\bin\Release\VRMapControlWidget.exp
+         VR_MapControlWidget.vcxproj -> E:\code2.0\\bin\Release\VRMapControlWidget.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\code2.0\\bin\Release\\VRMapControlWidget.dll;#2" /manifest Release\VRMapControlWidget.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\VRMapControlWidget.unsuccessfulbuild”。
+         正在对“Release\VRMapControlWidget.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\code2.0\jni\src\VR_Plugins\VR_MapControlWidget\VR_MapControlWidget.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.42

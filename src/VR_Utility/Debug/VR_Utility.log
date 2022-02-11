@@ -1,0 +1,138 @@
+﻿生成启动时间为 2021/10/24 22:52:35。
+     1>项目“F:\C++\code2.0\jni\src\VR_Utility\VR_Utility.vcxproj”在节点 8 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\VR_Utility.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         E:\VS2010\install-vs\VC\bin\CL.exe /c /IF:\C++\code2.0\\jni\include /IF:\C++\code2.0\\jni\include\boost /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D VR_UTILITY_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt objecttransformer.cpp
+         objecttransformer.cpp
+     1>f:\c++\code2.0\jni\include\vrmine\vr_spatialobject\base\geodatatype.h(28): warning C4251: “VirtualMine::Base::GeoDataType::GDT_IMAGE”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Base::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_spatialobject\base\geodatatype.h(29): warning C4251: “VirtualMine::Base::GeoDataType::GDT_DEM”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Base::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_spatialobject\base\geodatatype.h(30): warning C4251: “VirtualMine::Base::GeoDataType::GDT_MODEL”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Base::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_spatialobject\base\geodatatype.h(31): warning C4251: “VirtualMine::Base::GeoDataType::GDT_VECTOR”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Base::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_spatialobject\base\geodatatype.h(32): warning C4251: “VirtualMine::Base::GeoDataType::GDT_LANWAY”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Base::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_spatialobject\base\geodatatype.h(33): warning C4251: “VirtualMine::Base::GeoDataType::GDT_COALSEAM”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Base::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_spatialobject\base\geodatatype.h(34): warning C4251: “VirtualMine::Base::GeoDataType::GDT_FAULT”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Base::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_spatialobject\base\geodatatype.h(35): warning C4251: “VirtualMine::Base::GeoDataType::GDT_DRILL”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Base::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_spatialobject\base\geodatatype.h(36): warning C4251: “VirtualMine::Base::GeoDataType::GDT_MINE”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Base::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_spatialobject\base\geodatatype.h(37): warning C4251: “VirtualMine::Base::GeoDataType::GDT_MININGAREA”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Base::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_spatialobject\base\geodatatype.h(38): warning C4251: “VirtualMine::Base::GeoDataType::GDT_POINT”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Base::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_spatialobject\base\geodatatype.h(39): warning C4251: “VirtualMine::Base::GeoDataType::GDT_LINE”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Base::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_spatialobject\base\geodatatype.h(40): warning C4251: “VirtualMine::Base::GeoDataType::GDT_POLYGON”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Base::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\ogre\ogrestring.h(195): warning C4251: “Ogre::StringUtil::BLANK”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“Ogre::StringUtil”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\ogre\ogredatastream.h(185): warning C4251: “Ogre::DataStream::mName”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“Ogre::DataStream”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_databaseengine\database\field.h(42): warning C4251: “VirtualMine::Database::CField::mName”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Database::CField”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_databaseengine\database\propertyset.h(38): warning C4251: “VirtualMine::Database::CPropertySet::mPropertySet”: class“std::vector<_Ty>”需要有 dll 接口由 class“VirtualMine::Database::CPropertySet”的客户端使用
+                 with
+                 [
+                     _Ty=VirtualMine::Database::CField
+                 ]
+       Link:
+         E:\VS2010\install-vs\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\C++\code2.0\\bin\Debug\VR_Utility_d.dll" /INCREMENTAL /NOLOGO /LIBPATH:F:\C++\code2.0\\bin\Debug\ /LIBPATH:F:\C++\code2.0\\jni\lib\boost /LIBPATH:F:\C++\code2.0\\jni\lib\ogre\debug VR_Core_d.lib VR_SpatialObject_d.lib VR_SqliteDatabase_d.lib VR_DatabaseEngine_d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\VR_Utility_d.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\C++\code2.0\bin\Debug\VR_Utility_d.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\C++\code2.0\\bin\Debug\VR_Utility_d.lib" /MACHINE:X86 /DLL Debug\objecttransformer.obj
+            正在创建库 F:\C++\code2.0\\bin\Debug\VR_Utility_d.lib 和对象 F:\C++\code2.0\\bin\Debug\VR_Utility_d.exp
+         VR_Utility.vcxproj -> F:\C++\code2.0\\bin\Debug\VR_Utility_d.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"F:\C++\code2.0\\bin\Debug\VR_Utility_d.dll.manifest" /manifest Debug\VR_Utility_d.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\VR_Utility.unsuccessfulbuild”。
+         正在对“Debug\VR_Utility.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\C++\code2.0\jni\src\VR_Utility\VR_Utility.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:14.28

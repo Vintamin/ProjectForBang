@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{75DCE048-61C1-4205-A691-E91054C30AD2}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>VR_SpatialLayer</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <EmbedManifest>false</EmbedManifest>
+    <OutDir>$(SolutionDir)\bin\$(Configuration)\</OutDir>
+    <TargetName>$(ProjectName)_d</TargetName>
+    <IncludePath>$(QTDIR)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(QTDIR)\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)\bin\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;VR_SPATIALLAYER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\jni\include;$(SolutionDir)\jni\include\boost;$(QTDIR)\include\</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>VR_SpatialEngine_d.lib;OgreMain_d.lib;VR_SpatialRender_d.lib;VR_DatabaseEngine_d.lib;VR_SpatialObject_d.lib;VR_Core_d.lib;VR_Utility_d.lib;VR_Geometry_d.lib;VR_SpatialInterface_d.lib;VR_Style_d.lib;Bang_DatabaseEngine_d.lib;VR_SqliteDatabase_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir);$(SolutionDir)\jni\lib\boost;$(SolutionDir)\jni\lib\ogre\debug</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;VR_SPATIALLAYER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\jni\include;$(SolutionDir)\jni\include\boost</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(OutDir);$(SolutionDir)\jni\lib\boost;$(SolutionDir)\jni\lib\ogre\release</AdditionalLibraryDirectories>
+      <AdditionalDependencies>VR_SpatialEngine.lib;OgreMain.lib;VR_SpatialRender.lib;VR_DatabaseEngine.lib;VR_SpatialObject.lib;VR_Core.lib;VR_Utility.lib;VR_Geometry.lib;VR_SpatialInterface.lib;VR_Style.lib;VR_MathEngine.lib;Bang_DatabaseEngine.lib;VR_SqliteDatabase.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\vrmine\vr_spatiallayer\coallayer.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatiallayer\conprogresslayer.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatiallayer\demlayer.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatiallayer\dotsceneloader.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatiallayer\drilllayer.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatiallayer\escaperoute.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatiallayer\escaperoutelayer.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatiallayer\faultlayer.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatiallayer\imagelayer.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatiallayer\lanewaySectiongForBangLayer.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatiallayer\lanwaylayer.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatiallayer\layerfactory.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatiallayer\miningarealayer.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatiallayer\modellayer.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatiallayer\scenelayer.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatiallayer\shotholelayer.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatiallayer\spatiallayer_config.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatiallayer\terranelayer.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatiallayer\workingplanelayer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="coallayer.cpp" />
+    <ClCompile Include="conprogresslayer.cpp" />
+    <ClCompile Include="demlayer.cpp" />
+    <ClCompile Include="dotsceneloader.cpp" />
+    <ClCompile Include="drilllayer.cpp" />
+    <ClCompile Include="escaperoute.cpp" />
+    <ClCompile Include="escaperoutelayer.cpp" />
+    <ClCompile Include="faultlayer.cpp" />
+    <ClCompile Include="imagelayer.cpp" />
+    <ClCompile Include="lanewaySectiongForBangLayer.cpp" />
+    <ClCompile Include="lanwaylayer.cpp" />
+    <ClCompile Include="layerfactory.cpp" />
+    <ClCompile Include="miningarealayer.cpp" />
+    <ClCompile Include="modellayer.cpp" />
+    <ClCompile Include="scenelayer.cpp" />
+    <ClCompile Include="shotholelayer.cpp" />
+    <ClCompile Include="terranelayer.cpp" />
+    <ClCompile Include="workingplanelayer.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

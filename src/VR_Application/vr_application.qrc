@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="VR_Application">
+    <file>Resources/clear.png</file>
+    <file>Resources/pan.png</file>
+    <file>Resources/fullScreen.png</file>
+    <file>Resources/zoomIn.PNG</file>
+    <file>Resources/zoomOut.png</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>VR_ApplicationClass</class>
+ <widget class="QMainWindow" name="VR_ApplicationClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>704</width>
+    <height>488</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>二三维隧道爆破信息仿真系统</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QTreeView" name="treeView">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTableWidget" name="tableWidget">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="VR_MapControlWidget" name="vR_MapControlWidget"/>
+        </item>
+        <item>
+         <widget class="VRControl" name="vRControl"/>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>704</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>工程管理</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>场景视图</string>
+    </property>
+    <addaction name="action"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="pan_Action"/>
+   <addaction name="zoomIn_Action"/>
+   <addaction name="zoomOut"/>
+   <addaction name="fullScreen_Action"/>
+   <addaction name="reset_Action"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="action">
+   <property name="text">
+    <string>全屏</string>
+   </property>
+  </action>
+  <action name="pan_Action">
+   <property name="icon">
+    <iconset resource="vr_application.qrc">
+     <normaloff>:/VR_Application/Resources/pan.png</normaloff>:/VR_Application/Resources/pan.png</iconset>
+   </property>
+   <property name="text">
+    <string>漫游</string>
+   </property>
+   <property name="toolTip">
+    <string>漫游</string>
+   </property>
+  </action>
+  <action name="zoomIn_Action">
+   <property name="icon">
+    <iconset resource="vr_application.qrc">
+     <normaloff>:/VR_Application/Resources/zoomIn.PNG</normaloff>:/VR_Application/Resources/zoomIn.PNG</iconset>
+   </property>
+   <property name="text">
+    <string>放大</string>
+   </property>
+   <property name="toolTip">
+    <string>放大</string>
+   </property>
+  </action>
+  <action name="zoomOut">
+   <property name="icon">
+    <iconset resource="vr_application.qrc">
+     <normaloff>:/VR_Application/Resources/zoomOut.png</normaloff>:/VR_Application/Resources/zoomOut.png</iconset>
+   </property>
+   <property name="text">
+    <string>缩小</string>
+   </property>
+   <property name="toolTip">
+    <string>缩小</string>
+   </property>
+  </action>
+  <action name="fullScreen_Action">
+   <property name="icon">
+    <iconset resource="vr_application.qrc">
+     <normaloff>:/VR_Application/Resources/fullScreen.png</normaloff>:/VR_Application/Resources/fullScreen.png</iconset>
+   </property>
+   <property name="text">
+    <string>全屏</string>
+   </property>
+   <property name="toolTip">
+    <string>全屏</string>
+   </property>
+  </action>
+  <action name="reset_Action">
+   <property name="icon">
+    <iconset resource="vr_application.qrc">
+     <normaloff>:/VR_Application/Resources/clear.png</normaloff>:/VR_Application/Resources/clear.png</iconset>
+   </property>
+   <property name="text">
+    <string>复位</string>
+   </property>
+   <property name="toolTip">
+    <string>复位</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>VR_MapControlWidget</class>
+   <extends>QWidget</extends>
+   <header>vr_mapcontrolwidget.h</header>
+  </customwidget>
+  <customwidget>
+   <class>VRControl</class>
+   <extends>QWidget</extends>
+   <header>vrcontrol.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="vr_application.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pan_Action</sender>
+   <signal>triggered()</signal>
+   <receiver>VR_ApplicationClass</receiver>
+   <slot>slotPanMap()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>359</x>
+     <y>243</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>zoomIn_Action</sender>
+   <signal>triggered()</signal>
+   <receiver>VR_ApplicationClass</receiver>
+   <slot>slotZoomInMap()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>359</x>
+     <y>243</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>zoomOut</sender>
+   <signal>triggered()</signal>
+   <receiver>VR_ApplicationClass</receiver>
+   <slot>slotZoomOutMap()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>359</x>
+     <y>243</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>fullScreen_Action</sender>
+   <signal>triggered()</signal>
+   <receiver>VR_ApplicationClass</receiver>
+   <slot>slotFullScreen()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>359</x>
+     <y>243</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>reset_Action</sender>
+   <signal>triggered()</signal>
+   <receiver>VR_ApplicationClass</receiver>
+   <slot>slotReset()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>359</x>
+     <y>243</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>slotPanMap()</slot>
+  <slot>slotZoomInMap()</slot>
+  <slot>slotZoomOutMap()</slot>
+  <slot>slotFullScreen()</slot>
+  <slot>slotReset()</slot>
+ </slots>
+</ui>

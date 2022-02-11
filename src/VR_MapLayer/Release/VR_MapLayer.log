@@ -1,0 +1,37 @@
+﻿生成启动时间为 15-9-12 10:27:15。
+     1>项目“E:\code2.0\jni\src\VR_MapLayer\VR_MapLayer.vcxproj”在节点 4 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\VR_MapLayer.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\code2.0\\bin\Release\\VR_MapLayer.dll" /NOLOGO /LIBPATH:C:\Qt\4.8.6\lib /LIBPATH:E:\code2.0\\bin\Release\ /LIBPATH:E:\code2.0\\jni\lib\boost /LIBPATH:E:\code2.0\\jni\lib\ogre\release qtmain.lib QtCore4.lib QtDesigner4.lib QtGui4.lib QtXml4.lib VR_Core.lib OgreMain.lib VR_Geometry.lib VR_Style.lib VR_SpatialInterface.lib VRSceneTreeWidget.lib VR_DatabaseEngine.lib VR_SqliteDatabase.lib VR_SpatialLayer.lib VR_SpatialObject.lib VR_Utility.lib Bang_DatabaseEngine.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\VR_MapLayer.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"E:\code2.0\bin\Release\VR_MapLayer.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\code2.0\\bin\Release\VR_MapLayer.lib" /MACHINE:X86 /DLL Release\arcdrawitem.obj
+         Release\bangprojectmanager.obj
+         Release\ellipse.obj
+         Release\idrawobject.obj
+         Release\igeometrydrawitem.obj
+         Release\line2D.obj
+         Release\linedrawitem.obj
+         Release\map.obj
+         Release\map2dlayer.obj
+         Release\point2D.obj
+         Release\pointdrawitem.obj
+         Release\pointlayer.obj
+         Release\polylinelayer.obj
+         Release\rectangle.obj
+         Release\rocklayer2D.obj
+         Release\shapeitem.obj
+         Release\shotholelayer.obj
+         Release\textDrawItem.obj
+            正在创建库 E:\code2.0\\bin\Release\VR_MapLayer.lib 和对象 E:\code2.0\\bin\Release\VR_MapLayer.exp
+         VR_MapLayer.vcxproj -> E:\code2.0\\bin\Release\VR_MapLayer.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\code2.0\\bin\Release\\VR_MapLayer.dll;#2" /manifest Release\VR_MapLayer.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\VR_MapLayer.unsuccessfulbuild”。
+         正在对“Release\VR_MapLayer.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\code2.0\jni\src\VR_MapLayer\VR_MapLayer.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.30

@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\baserender">
+      <UniqueIdentifier>{9cb69e12-e99d-4b5b-a71d-be3247c5c5af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\spatialrender">
+      <UniqueIdentifier>{73d8a038-e5b1-4ce2-8d9e-b126c5548877}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\lanewaypiperender">
+      <UniqueIdentifier>{0fe0a2f7-3fb6-4da9-9a9d-f506a464a614}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\vrmine\vr_spatialrender\baserender\multipolygon.h">
+      <Filter>头文件\baserender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatialrender\baserender\geomultirenderableobject.h">
+      <Filter>头文件\baserender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatialrender\baserender\georenderableobject.h">
+      <Filter>头文件\baserender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatialrender\baserender\multiline.h">
+      <Filter>头文件\baserender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatialrender\baserender\multipoint.h">
+      <Filter>头文件\baserender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatialrender\spatialrender\surfacerenderableobject.h">
+      <Filter>头文件\spatialrender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatialrender\spatialrender_config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatialrender\spatialrender\lanewayrenderableobject.h">
+      <Filter>头文件\spatialrender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatialrender\spatialrender\drillrenderableobject.h">
+      <Filter>头文件\spatialrender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatialrender\spatialrender\faultrenderableobject.h">
+      <Filter>头文件\spatialrender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatialrender\spatialrender\minerenderableobject.h">
+      <Filter>头文件\spatialrender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatialrender\spatialrender\workplanerenderableobject.h">
+      <Filter>头文件\spatialrender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatialrender\baserender\broadline.h">
+      <Filter>头文件\baserender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatialrender\baserender\moveabletext.h">
+      <Filter>头文件\baserender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatialrender\spatialrender\terranerenderobject.h">
+      <Filter>头文件\spatialrender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatialrender\spatialrender\coalseamrenderableobject.h">
+      <Filter>头文件\spatialrender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatialrender\lanewaypiperender\pipeline.h">
+      <Filter>头文件\lanewaypiperender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatialrender\lanewaypiperender\lanewayrenderforbang.h">
+      <Filter>头文件\lanewaypiperender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\vrmine\vr_spatialrender\spatialrender\lanewayrenderableprogress.h">
+      <Filter>头文件\spatialrender</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="geomultirenderableobject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="georenderableobject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="surfacerenderableobject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lanewayrenderableobject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="drillrenderableobject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="multiline.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="multipoint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="faultrenderableobject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="minerenderableobject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="workplanerenderableobject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="broadline.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="moveabletext.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="terranerenderobject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="coalseamrenderableobject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pipeline.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lanewayrenderforbang.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lanewayrenderableprogress.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

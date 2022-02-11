@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{53e55a42-4096-40eb-8ee8-c2a1b98929c2}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{8da00250-78a6-4c04-acc1-1de47c1a4306}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GeneratedFiles\qrc_bang_generalui.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_boreholeparametersdlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_boreholeparametersdlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_changepassworddlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_changepassworddlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_coalconditiondlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_coalconditiondlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_coalmechanicalparametersdlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_coalmechanicalparametersdlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_explosiveinventorydocumentsdlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_explosiveinventorydocumentsdlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_explosivemagazinetabledlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_explosivemagazinetabledlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_lanewaysectionpaintdlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_lanewaysectionpaintdlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_logindlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_logindlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_openprojectdlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_openprojectdlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_projectdesigndlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_projectdesigndlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_projectsummarydlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_projectsummarydlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_safeevacuationroutedlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_safeevacuationroutedlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_usersinformationdlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_usersinformationdlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="boreholeparametersdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="changepassworddlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="coalconditiondlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="coalmechanicalparametersdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="explosiveinventorydocumentsdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="explosivemagazinetabledlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lanewaysectionpaintdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="logindlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openprojectdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="projectdesigndlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="projectsummarydlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="safeevacuationroutedlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="usersinformationdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="drillingmachinetyped_Trolleydlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_drillingmachinetyped_Trolleydlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_drillingmachinetyped_Trolleydlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="drillingmachinetyped_ytdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_drillingmachinetyped_ytdlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_drillingmachinetyped_ytdlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_blastingeffectdlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_blastingeffectdlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="blastingeffectdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="advanceschedule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_advanceschedule.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_advanceschedule.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="mytest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_mytest.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_mytest.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="bang_generalui.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\include\bang_ForUI\boreholeparametersdlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\include\bang_ForUI\changepassworddlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\include\bang_ForUI\coalconditiondlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\include\bang_ForUI\coalmechanicalparametersdlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\include\bang_ForUI\explosiveinventorydocumentsdlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\include\bang_ForUI\explosivemagazinetabledlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\include\bang_ForUI\lanewaysectionpaintdlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\include\bang_ForUI\logindlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\include\bang_ForUI\openprojectdlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\include\bang_ForUI\projectdesigndlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\include\bang_ForUI\projectsummarydlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\include\bang_ForUI\safeevacuationroutedlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\include\bang_ForUI\usersinformationdlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="usersinformationdlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="safeevacuationroutedlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="projectsummarydlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="projectdesigndlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="openprojectdlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="logindlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="lanewaysectionpaintdlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="explosivemagazinetabledlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="explosiveinventorydocumentsdlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="drillingmachinetyped_ytdlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="drillingmachinetyped_Trolleydlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="coalmechanicalparametersdlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="coalconditiondlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="changepassworddlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="boreholeparametersdlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="blastingeffectdlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\include\bang_ForUI\drillingmachinetyped_Trolleydlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\include\bang_ForUI\drillingmachinetyped_ytdlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\include\bang_ForUI\blastingeffectdlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="advanceschedule.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\include\bang_ForUI\advanceschedule.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mytest.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mytest.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\include\bang_ForUI\bang_configui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_usersinformationdlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_safeevacuationroutedlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_projectsummarydlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_projectdesigndlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_openprojectdlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_logindlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_lanewaysectionpaintdlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_explosivemagazinetabledlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_explosiveinventorydocumentsdlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_drillingmachinetyped_ytdlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_drillingmachinetyped_Trolleydlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_coalmechanicalparametersdlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_coalconditiondlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_changepassworddlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_boreholeparametersdlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_blastingeffectdlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_advanceschedule.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_mytest.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

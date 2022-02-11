@@ -1,0 +1,797 @@
+﻿生成启动时间为 2021/10/24 22:52:35。
+     1>项目“F:\C++\code2.0\jni\src\VR_SQLSERVERDatabase\VR_SQLSERVERDatabase.vcxproj”在节点 5 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\VR_SQLSERVERDatabase.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         E:\VS2010\install-vs\VC\bin\CL.exe /c /IF:\C++\code2.0\\jni\include /IF:\C++\code2.0\\jni\include\boost /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt adoconnect.cpp odbcconnect.cpp
+         odbcconnect.cpp
+     1>f:\c++\code2.0\jni\include\ogre\ogrestring.h(195): warning C4251: “Ogre::StringUtil::BLANK”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“Ogre::StringUtil”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\ogre\ogredatastream.h(185): warning C4251: “Ogre::DataStream::mName”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“Ogre::DataStream”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_databaseengine\database\field.h(42): warning C4251: “VirtualMine::Database::CField::mName”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Database::CField”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_databaseengine\database\propertyset.h(38): warning C4251: “VirtualMine::Database::CPropertySet::mPropertySet”: class“std::vector<_Ty>”需要有 dll 接口由 class“VirtualMine::Database::CPropertySet”的客户端使用
+                 with
+                 [
+                     _Ty=VirtualMine::Database::CField
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_databaseengine\database\feature.h(98): warning C4251: “VirtualMine::Database::CFeature::mName”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Database::CFeature”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_databaseengine\database\feature.h(99): warning C4251: “VirtualMine::Database::CFeature::mType”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Database::CFeature”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(29): warning C4251: “VirtualMine::Core::GeoDataType::GDT_IMAGE”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(30): warning C4251: “VirtualMine::Core::GeoDataType::GDT_DEM”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(31): warning C4251: “VirtualMine::Core::GeoDataType::GDT_MODEL”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(32): warning C4251: “VirtualMine::Core::GeoDataType::GDT_VECTOR”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(33): warning C4251: “VirtualMine::Core::GeoDataType::GDT_LANWAY”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(34): warning C4251: “VirtualMine::Core::GeoDataType::GDT_LANEWAYSECTION”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(35): warning C4251: “VirtualMine::Core::GeoDataType::GDT_COALSEAM”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(36): warning C4251: “VirtualMine::Core::GeoDataType::GDT_FAULT”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(37): warning C4251: “VirtualMine::Core::GeoDataType::GDT_DRILL”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(38): warning C4251: “VirtualMine::Core::GeoDataType::GDT_MINE”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(39): warning C4251: “VirtualMine::Core::GeoDataType::GDT_MININGAREA”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(40): warning C4251: “VirtualMine::Core::GeoDataType::GDT_POINT”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(41): warning C4251: “VirtualMine::Core::GeoDataType::GDT_LINE”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(42): warning C4251: “VirtualMine::Core::GeoDataType::GDT_POLYGON”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(43): warning C4251: “VirtualMine::Core::GeoDataType::GDT_WORKINGPLANE”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(44): warning C4251: “VirtualMine::Core::GeoDataType::GDT_TERRANE”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(45): warning C4251: “VirtualMine::Core::GeoDataType::GDT_SHOTHOLE”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(46): warning C4251: “VirtualMine::Core::GeoDataType::GDT_2DSHOTHOLE”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(47): warning C4251: “VirtualMine::Core::GeoDataType::GDT_2DROCKLAYER”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(48): warning C4251: “VirtualMine::Core::GeoDataType::GDT_ESCAPEROUTE”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(50): warning C4251: “VirtualMine::Core::GeoDataType::GDT_CONORGANIZATION”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(52): warning C4251: “VirtualMine::Core::GeoDataType::GDT_CONPROGRESS”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(59): warning C4251: “VirtualMine::Core::GeoDatabaseType::GDBT_SQLITE”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDatabaseType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(60): warning C4251: “VirtualMine::Core::GeoDatabaseType::GDBT_ACCESS”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDatabaseType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(61): warning C4251: “VirtualMine::Core::GeoDatabaseType::GDBT_MYSQL”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDatabaseType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(62): warning C4251: “VirtualMine::Core::GeoDatabaseType::GDBT_ORACLE”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDatabaseType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(63): warning C4251: “VirtualMine::Core::GeoDatabaseType::GDBT_REMOTE”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDatabaseType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(70): warning C4251: “VirtualMine::Core::GeoMaterialType::GMT_LANEWAY_NORMAL”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoMaterialType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(72): warning C4251: “VirtualMine::Core::GeoMaterialType::GMT_LANEWAY_NOAIR”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoMaterialType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(73): warning C4251: “VirtualMine::Core::GeoMaterialType::GMT_LANEWAY_FRESHWIND_FORWARD”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoMaterialType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(74): warning C4251: “VirtualMine::Core::GeoMaterialType::GMT_LANEWAY_FRESHWIND_REVERSE”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoMaterialType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(75): warning C4251: “VirtualMine::Core::GeoMaterialType::GMT_LANEWAY_WASTEWIND_FORWARD”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoMaterialType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(76): warning C4251: “VirtualMine::Core::GeoMaterialType::GMT_LANEWAY_WASTEWIND_REVERSE”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoMaterialType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_databaseengine\database\modelfeature.h(132): warning C4251: “VirtualMine::Database::CModelFeature::mName”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Database::CModelFeature”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_databaseengine\database\databaseinfo.h(28): warning C4251: “VirtualMine::Database::CDatabaseInfo::mType”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Database::CDatabaseInfo”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_databaseengine\database\databaseinfo.h(29): warning C4251: “VirtualMine::Database::CDatabaseInfo::mUri”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Database::CDatabaseInfo”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_databaseengine\database\database.h(102): warning C4251: “VirtualMine::Database::CDatabase::mName”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Database::CDatabase”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_databaseengine\database\database.h(106): warning C4251: “VirtualMine::Database::CDatabase::mType”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Database::CDatabase”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_databaseengine\database\dataset.h(48): warning C4251: “VirtualMine::Database::CDataset::mName”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Database::CDataset”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_databaseengine\database\dataset.h(50): warning C4251: “VirtualMine::Database::CDataset::mType”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Database::CDataset”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\odbcconnect.cpp(18): warning C4273: “VirtualMine::SQLServerDatabase::CSQLServerDatasource::CSQLServerDatasource”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\odbcconnect.h(26) : 参见“{ctor}”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\odbcconnect.cpp(78): warning C4273: “VirtualMine::SQLServerDatabase::CSQLServerDatasource::~CSQLServerDatasource”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\odbcconnect.h(27) : 参见“{dtor}”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\odbcconnect.cpp(83): warning C4273: “VirtualMine::SQLServerDatabase::CSQLServerDatasource::OnInitADOConn”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\odbcconnect.h(29) : 参见“OnInitADOConn”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\odbcconnect.cpp(89): warning C4273: “VirtualMine::SQLServerDatabase::CSQLServerDatasource::openDB”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\odbcconnect.h(31) : 参见“openDB”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\odbcconnect.cpp(96): warning C4273: “VirtualMine::SQLServerDatabase::CSQLServerDatasource::openDB”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\odbcconnect.h(32) : 参见“openDB”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\odbcconnect.cpp(102): warning C4273: “VirtualMine::SQLServerDatabase::CSQLServerDatasource::ExecuteSQLbyCMD”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\odbcconnect.h(33) : 参见“ExecuteSQLbyCMD”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\odbcconnect.cpp(110): warning C4273: “VirtualMine::SQLServerDatabase::CSQLServerDatasource::ExecuteSQL”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\odbcconnect.h(30) : 参见“ExecuteSQL”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\odbcconnect.cpp(127): warning C4273: “VirtualMine::SQLServerDatabase::CSQLServerDatasource::createDatabase”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\odbcconnect.h(36) : 参见“createDatabase”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\odbcconnect.cpp(190): warning C4273: “VirtualMine::SQLServerDatabase::CSQLServerDatasource::createDataset”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\odbcconnect.h(39) : 参见“createDataset”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\odbcconnect.cpp(248): warning C4273: “VirtualMine::SQLServerDatabase::CSQLServerDatasource::createLanewayDataset”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\odbcconnect.h(41) : 参见“createLanewayDataset”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\odbcconnect.cpp(262): warning C4273: “VirtualMine::SQLServerDatabase::CSQLServerDatasource::createModelDataset”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\odbcconnect.h(43) : 参见“createModelDataset”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\odbcconnect.cpp(275): warning C4273: “VirtualMine::SQLServerDatabase::CSQLServerDatasource::createCoalLayerDataset”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\odbcconnect.h(45) : 参见“createCoalLayerDataset”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\odbcconnect.cpp(290): warning C4273: “VirtualMine::SQLServerDatabase::CSQLServerDatasource::createDrillingDataset”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\odbcconnect.h(47) : 参见“createDrillingDataset”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\odbcconnect.cpp(300): warning C4273: “VirtualMine::SQLServerDatabase::CSQLServerDatasource::createFaultLayerDataset”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\odbcconnect.h(48) : 参见“createFaultLayerDataset”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\odbcconnect.cpp(309): warning C4273: “VirtualMine::SQLServerDatabase::CSQLServerDatasource::createRoadDataset”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\odbcconnect.h(51) : 参见“createRoadDataset”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\odbcconnect.cpp(317): warning C4273: “VirtualMine::SQLServerDatabase::CSQLServerDatasource::createDEMDataset”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\odbcconnect.h(53) : 参见“createDEMDataset”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\odbcconnect.cpp(330): warning C4273: “VirtualMine::SQLServerDatabase::CSQLServerDatasource::createWorkingPlaneDataset”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\odbcconnect.h(55) : 参见“createWorkingPlaneDataset”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\odbcconnect.cpp(342): warning C4273: “VirtualMine::SQLServerDatabase::CSQLServerDatasource::createImageDataset”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\odbcconnect.h(56) : 参见“createImageDataset”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\odbcconnect.cpp(356): warning C4273: “VirtualMine::SQLServerDatabase::CSQLServerDatasource::insertFeatureToDataset”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\odbcconnect.h(62) : 参见“insertFeatureToDataset”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\odbcconnect.cpp(376): warning C4273: “VirtualMine::SQLServerDatabase::CSQLServerDatasource::insertLanewayFeatureToLanewayDataset”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\odbcconnect.h(64) : 参见“insertLanewayFeatureToLanewayDataset”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\odbcconnect.cpp(493): warning C4273: “VirtualMine::SQLServerDatabase::CSQLServerDatasource::insertCoalLayerFeatureToCoalLayerDataset”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\odbcconnect.h(67) : 参见“insertCoalLayerFeatureToCoalLayerDataset”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\odbcconnect.cpp(498): warning C4273: “VirtualMine::SQLServerDatabase::CSQLServerDatasource::insertDrillingFeatureToDrillingDataset”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\odbcconnect.h(69) : 参见“insertDrillingFeatureToDrillingDataset”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\odbcconnect.cpp(504): warning C4273: “VirtualMine::SQLServerDatabase::CSQLServerDatasource::insertLogicFeatureToLogicDataset”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\odbcconnect.h(72) : 参见“insertLogicFeatureToLogicDataset”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\odbcconnect.cpp(509): warning C4273: “VirtualMine::SQLServerDatabase::CSQLServerDatasource::insertMetaDataFeatureToMetaDataset”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\odbcconnect.h(74) : 参见“insertMetaDataFeatureToMetaDataset”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\odbcconnect.cpp(515): warning C4273: “VirtualMine::SQLServerDatabase::CSQLServerDatasource::insertImageFeatureToImageDataset”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\odbcconnect.h(77) : 参见“insertImageFeatureToImageDataset”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\odbcconnect.cpp(524): warning C4273: “VirtualMine::SQLServerDatabase::CSQLServerDatasource::insertDEMFeatureToDEMDataset”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\odbcconnect.h(83) : 参见“insertDEMFeatureToDEMDataset”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\odbcconnect.cpp(529): warning C4273: “VirtualMine::SQLServerDatabase::CSQLServerDatasource::insertWorkingplaneFeatureToWorkingPlaneDataset”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\odbcconnect.h(85) : 参见“insertWorkingplaneFeatureToWorkingPlaneDataset”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\odbcconnect.cpp(537): warning C4273: “VirtualMine::SQLServerDatabase::CSQLServerDatasource::insertModelFeatureToModelDataset”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\odbcconnect.h(88) : 参见“insertModelFeatureToModelDataset”的前一个定义
+         adoconnect.cpp
+     1>f:\c++\code2.0\jni\include\ogre\ogrestring.h(195): warning C4251: “Ogre::StringUtil::BLANK”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“Ogre::StringUtil”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\ogre\ogredatastream.h(185): warning C4251: “Ogre::DataStream::mName”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“Ogre::DataStream”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_databaseengine\database\field.h(42): warning C4251: “VirtualMine::Database::CField::mName”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Database::CField”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_databaseengine\database\propertyset.h(38): warning C4251: “VirtualMine::Database::CPropertySet::mPropertySet”: class“std::vector<_Ty>”需要有 dll 接口由 class“VirtualMine::Database::CPropertySet”的客户端使用
+                 with
+                 [
+                     _Ty=VirtualMine::Database::CField
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_databaseengine\database\feature.h(98): warning C4251: “VirtualMine::Database::CFeature::mName”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Database::CFeature”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_databaseengine\database\feature.h(99): warning C4251: “VirtualMine::Database::CFeature::mType”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Database::CFeature”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(29): warning C4251: “VirtualMine::Core::GeoDataType::GDT_IMAGE”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(30): warning C4251: “VirtualMine::Core::GeoDataType::GDT_DEM”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(31): warning C4251: “VirtualMine::Core::GeoDataType::GDT_MODEL”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(32): warning C4251: “VirtualMine::Core::GeoDataType::GDT_VECTOR”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(33): warning C4251: “VirtualMine::Core::GeoDataType::GDT_LANWAY”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(34): warning C4251: “VirtualMine::Core::GeoDataType::GDT_LANEWAYSECTION”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(35): warning C4251: “VirtualMine::Core::GeoDataType::GDT_COALSEAM”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(36): warning C4251: “VirtualMine::Core::GeoDataType::GDT_FAULT”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(37): warning C4251: “VirtualMine::Core::GeoDataType::GDT_DRILL”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(38): warning C4251: “VirtualMine::Core::GeoDataType::GDT_MINE”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(39): warning C4251: “VirtualMine::Core::GeoDataType::GDT_MININGAREA”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(40): warning C4251: “VirtualMine::Core::GeoDataType::GDT_POINT”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(41): warning C4251: “VirtualMine::Core::GeoDataType::GDT_LINE”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(42): warning C4251: “VirtualMine::Core::GeoDataType::GDT_POLYGON”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(43): warning C4251: “VirtualMine::Core::GeoDataType::GDT_WORKINGPLANE”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(44): warning C4251: “VirtualMine::Core::GeoDataType::GDT_TERRANE”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(45): warning C4251: “VirtualMine::Core::GeoDataType::GDT_SHOTHOLE”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(46): warning C4251: “VirtualMine::Core::GeoDataType::GDT_2DSHOTHOLE”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(47): warning C4251: “VirtualMine::Core::GeoDataType::GDT_2DROCKLAYER”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(48): warning C4251: “VirtualMine::Core::GeoDataType::GDT_ESCAPEROUTE”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(50): warning C4251: “VirtualMine::Core::GeoDataType::GDT_CONORGANIZATION”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(52): warning C4251: “VirtualMine::Core::GeoDataType::GDT_CONPROGRESS”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDataType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(59): warning C4251: “VirtualMine::Core::GeoDatabaseType::GDBT_SQLITE”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDatabaseType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(60): warning C4251: “VirtualMine::Core::GeoDatabaseType::GDBT_ACCESS”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDatabaseType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(61): warning C4251: “VirtualMine::Core::GeoDatabaseType::GDBT_MYSQL”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDatabaseType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(62): warning C4251: “VirtualMine::Core::GeoDatabaseType::GDBT_ORACLE”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDatabaseType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(63): warning C4251: “VirtualMine::Core::GeoDatabaseType::GDBT_REMOTE”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoDatabaseType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(70): warning C4251: “VirtualMine::Core::GeoMaterialType::GMT_LANEWAY_NORMAL”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoMaterialType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(72): warning C4251: “VirtualMine::Core::GeoMaterialType::GMT_LANEWAY_NOAIR”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoMaterialType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(73): warning C4251: “VirtualMine::Core::GeoMaterialType::GMT_LANEWAY_FRESHWIND_FORWARD”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoMaterialType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(74): warning C4251: “VirtualMine::Core::GeoMaterialType::GMT_LANEWAY_FRESHWIND_REVERSE”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoMaterialType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(75): warning C4251: “VirtualMine::Core::GeoMaterialType::GMT_LANEWAY_WASTEWIND_FORWARD”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoMaterialType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_core\geodatatype.h(76): warning C4251: “VirtualMine::Core::GeoMaterialType::GMT_LANEWAY_WASTEWIND_REVERSE”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Core::GeoMaterialType”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_databaseengine\database\modelfeature.h(132): warning C4251: “VirtualMine::Database::CModelFeature::mName”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Database::CModelFeature”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_databaseengine\database\databaseinfo.h(28): warning C4251: “VirtualMine::Database::CDatabaseInfo::mType”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Database::CDatabaseInfo”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_databaseengine\database\databaseinfo.h(29): warning C4251: “VirtualMine::Database::CDatabaseInfo::mUri”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Database::CDatabaseInfo”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_databaseengine\database\database.h(102): warning C4251: “VirtualMine::Database::CDatabase::mName”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Database::CDatabase”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_databaseengine\database\database.h(106): warning C4251: “VirtualMine::Database::CDatabase::mType”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Database::CDatabase”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\adoconnect.h(89): warning C4251: “VirtualMine::SQLServerDatabase::CSQLSERVERDatabase::m_pConnection”: class“_com_ptr_t<_IIID>”需要有 dll 接口由 class“VirtualMine::SQLServerDatabase::CSQLSERVERDatabase”的客户端使用
+                 with
+                 [
+                     _IIID=_com_IIID<_Connection,& _GUID_00001550_0000_0010_8000_00aa006d2ea4>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\adoconnect.h(90): warning C4251: “VirtualMine::SQLServerDatabase::CSQLSERVERDatabase::m_pRecordset”: class“_com_ptr_t<_IIID>”需要有 dll 接口由 class“VirtualMine::SQLServerDatabase::CSQLSERVERDatabase”的客户端使用
+                 with
+                 [
+                     _IIID=_com_IIID<_Recordset,& _GUID_00001556_0000_0010_8000_00aa006d2ea4>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\adoconnect.h(91): warning C4251: “VirtualMine::SQLServerDatabase::CSQLSERVERDatabase::mDatabaseName”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::SQLServerDatabase::CSQLSERVERDatabase”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_databaseengine\database\dataset.h(48): warning C4251: “VirtualMine::Database::CDataset::mName”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Database::CDataset”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\include\vrmine\vr_databaseengine\database\dataset.h(50): warning C4251: “VirtualMine::Database::CDataset::mType”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“VirtualMine::Database::CDataset”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\adoconnect.cpp(19): warning C4273: “VirtualMine::SQLServerDatabase::CSQLSERVERDatabase::CSQLSERVERDatabase”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\adoconnect.h(20) : 参见“{ctor}”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\adoconnect.cpp(26): warning C4273: “VirtualMine::SQLServerDatabase::CSQLSERVERDatabase::~CSQLSERVERDatabase”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\adoconnect.h(21) : 参见“{dtor}”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\adoconnect.cpp(31): warning C4273: “VirtualMine::SQLServerDatabase::CSQLSERVERDatabase::OnInitADOConn”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\adoconnect.h(23) : 参见“OnInitADOConn”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\adoconnect.cpp(37): warning C4273: “VirtualMine::SQLServerDatabase::CSQLSERVERDatabase::openDB”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\adoconnect.h(25) : 参见“openDB”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\adoconnect.cpp(62): warning C4273: “VirtualMine::SQLServerDatabase::CSQLSERVERDatabase::openDB”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\adoconnect.h(26) : 参见“openDB”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\adoconnect.cpp(85): warning C4273: “VirtualMine::SQLServerDatabase::CSQLSERVERDatabase::ExecuteSQLbyCMD”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\adoconnect.h(27) : 参见“ExecuteSQLbyCMD”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\adoconnect.cpp(92): warning C4273: “VirtualMine::SQLServerDatabase::CSQLSERVERDatabase::getConnection”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\adoconnect.h(29) : 参见“getConnection”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\adoconnect.cpp(97): warning C4273: “VirtualMine::SQLServerDatabase::CSQLSERVERDatabase::ExecuteSQL”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\adoconnect.h(24) : 参见“ExecuteSQL”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\adoconnect.cpp(114): warning C4273: “VirtualMine::SQLServerDatabase::CSQLSERVERDatabase::createDatabase”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\adoconnect.h(30) : 参见“createDatabase”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\adoconnect.cpp(177): warning C4273: “VirtualMine::SQLServerDatabase::CSQLSERVERDatabase::createDataset”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\adoconnect.h(33) : 参见“createDataset”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\adoconnect.cpp(235): warning C4273: “VirtualMine::SQLServerDatabase::CSQLSERVERDatabase::createLanewayDataset”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\adoconnect.h(35) : 参见“createLanewayDataset”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\adoconnect.cpp(248): warning C4273: “VirtualMine::SQLServerDatabase::CSQLSERVERDatabase::createModelDataset”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\adoconnect.h(37) : 参见“createModelDataset”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\adoconnect.cpp(260): warning C4273: “VirtualMine::SQLServerDatabase::CSQLSERVERDatabase::createCoalLayerDataset”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\adoconnect.h(39) : 参见“createCoalLayerDataset”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\adoconnect.cpp(274): warning C4273: “VirtualMine::SQLServerDatabase::CSQLSERVERDatabase::createDrillingDataset”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\adoconnect.h(41) : 参见“createDrillingDataset”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\adoconnect.cpp(283): warning C4273: “VirtualMine::SQLServerDatabase::CSQLSERVERDatabase::createFaultLayerDataset”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\adoconnect.h(42) : 参见“createFaultLayerDataset”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\adoconnect.cpp(292): warning C4273: “VirtualMine::SQLServerDatabase::CSQLSERVERDatabase::createRoadDataset”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\adoconnect.h(45) : 参见“createRoadDataset”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\adoconnect.cpp(300): warning C4273: “VirtualMine::SQLServerDatabase::CSQLSERVERDatabase::createDEMDataset”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\adoconnect.h(47) : 参见“createDEMDataset”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\adoconnect.cpp(312): warning C4273: “VirtualMine::SQLServerDatabase::CSQLSERVERDatabase::createWorkingPlaneDataset”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\adoconnect.h(49) : 参见“createWorkingPlaneDataset”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\adoconnect.cpp(323): warning C4273: “VirtualMine::SQLServerDatabase::CSQLSERVERDatabase::createImageDataset”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\adoconnect.h(50) : 参见“createImageDataset”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\adoconnect.cpp(336): warning C4273: “VirtualMine::SQLServerDatabase::CSQLSERVERDatabase::insertFeatureToDataset”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\adoconnect.h(56) : 参见“insertFeatureToDataset”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\adoconnect.cpp(356): warning C4273: “VirtualMine::SQLServerDatabase::CSQLSERVERDatabase::insertLanewayFeatureToLanewayDataset”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\adoconnect.h(58) : 参见“insertLanewayFeatureToLanewayDataset”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\adoconnect.cpp(472): warning C4273: “VirtualMine::SQLServerDatabase::CSQLSERVERDatabase::insertCoalLayerFeatureToCoalLayerDataset”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\adoconnect.h(61) : 参见“insertCoalLayerFeatureToCoalLayerDataset”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\adoconnect.cpp(477): warning C4273: “VirtualMine::SQLServerDatabase::CSQLSERVERDatabase::insertDrillingFeatureToDrillingDataset”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\adoconnect.h(63) : 参见“insertDrillingFeatureToDrillingDataset”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\adoconnect.cpp(483): warning C4273: “VirtualMine::SQLServerDatabase::CSQLSERVERDatabase::insertLogicFeatureToLogicDataset”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\adoconnect.h(66) : 参见“insertLogicFeatureToLogicDataset”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\adoconnect.cpp(488): warning C4273: “VirtualMine::SQLServerDatabase::CSQLSERVERDatabase::insertMetaDataFeatureToMetaDataset”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\adoconnect.h(68) : 参见“insertMetaDataFeatureToMetaDataset”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\adoconnect.cpp(494): warning C4273: “VirtualMine::SQLServerDatabase::CSQLSERVERDatabase::insertImageFeatureToImageDataset”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\adoconnect.h(71) : 参见“insertImageFeatureToImageDataset”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\adoconnect.cpp(503): warning C4273: “VirtualMine::SQLServerDatabase::CSQLSERVERDatabase::insertDEMFeatureToDEMDataset”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\adoconnect.h(77) : 参见“insertDEMFeatureToDEMDataset”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\adoconnect.cpp(508): warning C4273: “VirtualMine::SQLServerDatabase::CSQLSERVERDatabase::insertWorkingplaneFeatureToWorkingPlaneDataset”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\adoconnect.h(79) : 参见“insertWorkingplaneFeatureToWorkingPlaneDataset”的前一个定义
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\adoconnect.cpp(516): warning C4273: “VirtualMine::SQLServerDatabase::CSQLSERVERDatabase::insertModelFeatureToModelDataset”: dll 链接不一致
+                 f:\c++\code2.0\jni\include\vrmine\vr_sqlserverdatabase\sqlserverdatabse\adoconnect.h(84) : 参见“insertModelFeatureToModelDataset”的前一个定义
+         正在生成代码...
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\adoconnect.cpp(230): warning C4715: “VirtualMine::SQLServerDatabase::CSQLSERVERDatabase::createDataset”: 不是所有的控件路径都返回值
+     1>f:\c++\code2.0\jni\src\vr_sqlserverdatabase\odbcconnect.cpp(243): warning C4715: “VirtualMine::SQLServerDatabase::CSQLServerDatasource::createDataset”: 不是所有的控件路径都返回值
+       Link:
+         E:\VS2010\install-vs\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\C++\code2.0\\bin\Debug\VR_SQLSERVERDatabase_d.dll" /INCREMENTAL /NOLOGO /LIBPATH:F:\C++\code2.0\\jni\lib\ogre\debug /LIBPATH:F:\C++\code2.0\\bin\Debug\ /LIBPATH:F:\C++\code2.0\\jni\lib\boost VR_DatabaseEngine_d.lib VR_Core_d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\VR_SQLSERVERDatabase_d.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\C++\code2.0\bin\Debug\VR_SQLSERVERDatabase_d.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\C++\code2.0\\bin\Debug\VR_SQLSERVERDatabase_d.lib" /MACHINE:X86 /DLL Debug\adoconnect.obj
+         Debug\odbcconnect.obj
+            正在创建库 F:\C++\code2.0\\bin\Debug\VR_SQLSERVERDatabase_d.lib 和对象 F:\C++\code2.0\\bin\Debug\VR_SQLSERVERDatabase_d.exp
+         VR_SQLSERVERDatabase.vcxproj -> F:\C++\code2.0\\bin\Debug\VR_SQLSERVERDatabase_d.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"F:\C++\code2.0\\bin\Debug\VR_SQLSERVERDatabase_d.dll.manifest" /manifest Debug\VR_SQLSERVERDatabase_d.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\VR_SQLSERVERDatabase.unsuccessfulbuild”。
+         正在对“Debug\VR_SQLSERVERDatabase.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\C++\code2.0\jni\src\VR_SQLSERVERDatabase\VR_SQLSERVERDatabase.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:53.75

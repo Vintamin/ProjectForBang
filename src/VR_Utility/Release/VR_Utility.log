@@ -1,0 +1,22 @@
+﻿生成启动时间为 15-9-4 13:28:17。
+     1>项目“E:\code2.0\jni\src\VR_Utility\VR_Utility.vcxproj”在节点 6 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\VR_Utility.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\code2.0\\bin\Release\VR_Utility.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:E:\code2.0\\bin\Release\ /LIBPATH:E:\code2.0\\jni\lib\boost /LIBPATH:E:\code2.0\\jni\lib\ogre\release VR_Core.lib VR_SpatialObject.lib VR_SqliteDatabase.lib VR_DatabaseEngine.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\VR_Utility.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"E:\code2.0\bin\Release\VR_Utility.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\code2.0\\bin\Release\VR_Utility.lib" /MACHINE:X86 /DLL Release\objecttransformer.obj
+            正在创建库 E:\code2.0\\bin\Release\VR_Utility.lib 和对象 E:\code2.0\\bin\Release\VR_Utility.exp
+         正在生成代码
+         已完成代码的生成
+         VR_Utility.vcxproj -> E:\code2.0\\bin\Release\VR_Utility.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\code2.0\\bin\Release\VR_Utility.dll;#2" /manifest Release\VR_Utility.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\VR_Utility.unsuccessfulbuild”。
+         正在对“Release\VR_Utility.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\code2.0\jni\src\VR_Utility\VR_Utility.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.49

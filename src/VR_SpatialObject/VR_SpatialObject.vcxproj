@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{653DF02C-03E5-4520-B0CE-426D629B5764}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>VR_SpatialObject</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)\bin\$(Configuration)\</OutDir>
+    <EmbedManifest>false</EmbedManifest>
+    <TargetName>$(ProjectName)_d</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)\bin\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;VR_SPATIALOBJECT_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\jni\include;$(SolutionDir)\jni\include\boost</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);$(SolutionDir)\jni\lib\ogre\debug;$(SolutionDir)\jni\lib\boost</AdditionalLibraryDirectories>
+      <AdditionalDependencies>VR_Core_d.lib;VR_Style_d.lib;VR_Geometry_d.lib;VR_DatabaseEngine_d.lib;VR_SpatialInterface_d.lib;OgreMain_d.lib;VR_MathEngine_d.lib;VR_SqliteDatabase_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;VR_SPATIALOBJECT_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\jni\include;$(SolutionDir)\jni\include\boost</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(OutDir);$(SolutionDir)\jni\lib\boost;$(SolutionDir)\jni\lib\ogre\release</AdditionalLibraryDirectories>
+      <AdditionalDependencies>VR_Core.lib;VR_Style.lib;VR_Geometry.lib;VR_DatabaseEngine.lib;VR_SpatialInterface.lib;OgreMain.lib;VR_MathEngine.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\vrmine\vr_spatialobject\base\geoline.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialobject\base\geopoint.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialobject\base\geopolygon.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialobject\geofactory\coalseamfactory.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialobject\geofactory\demfactory.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialobject\geofactory\drillfactory.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialobject\geofactory\faultfactory.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialobject\geofactory\geofactoryregister.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialobject\geofactory\geolinefactory.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialobject\geofactory\geopointfactory.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialobject\geofactory\geopolygonfactory.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialobject\geofactory\minefactory.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialobject\geofactory\miningareafactory.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialobject\geofactory\shotholefactory.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialobject\geofactory\surfacefactory.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialobject\geofactory\tunnelfactory.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialobject\geofactory\vectorfactory.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialobject\geoproperty\cardmodelproperty.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialobject\geoproperty\coalseamproperty.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialobject\geoproperty\drillproperty.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialobject\geoproperty\faultproperty.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialobject\geoproperty\imageproperty.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialobject\geoproperty\lanewayproperty.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialobject\geoproperty\mineproperty.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialobject\geoproperty\jiancemodelproperty.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialobject\geoproperty\modelProperty.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialobject\geoproperty\terraneproperty.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialobject\mine\coalseamobject.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialobject\mine\demobject.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialobject\mine\drillobject.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialobject\mine\faultobject.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialobject\mine\flagobject.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialobject\mine\imageobject.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialobject\mine\lanwayobjectpro.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialobject\mine\mineobject.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialobject\mine\miningareaobject.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialobject\mine\modelobject.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialobject\mine\rendertype.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialobject\mine\surfaceobject.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialobject\mine\lanwayobject.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialobject\mine\terraneobject.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialobject\mine\vectorobject.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialobject\mine\workingplaneobject.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialobject\mine\workingplaneproperty.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_spatialobject\spatialobject_config.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cardmodelproperty.cpp" />
+    <ClCompile Include="coalseamobject.cpp" />
+    <ClCompile Include="coalseamproperty.cpp" />
+    <ClCompile Include="demobject.cpp" />
+    <ClCompile Include="drillobject.cpp" />
+    <ClCompile Include="drillproperty.cpp" />
+    <ClCompile Include="faultobject.cpp" />
+    <ClCompile Include="faultproperty.cpp" />
+    <ClCompile Include="flagobject.cpp" />
+    <ClCompile Include="geofactoryregister.cpp" />
+    <ClCompile Include="geoline.cpp" />
+    <ClCompile Include="geopoint.cpp" />
+    <ClCompile Include="imageobject.cpp" />
+    <ClCompile Include="imageproperty.cpp" />
+    <ClCompile Include="lanwayobjectpro.cpp" />
+    <ClCompile Include="lanewayproperty.cpp" />
+    <ClCompile Include="lanwayobject.cpp" />
+    <ClCompile Include="mineobject.cpp" />
+    <ClCompile Include="mineproperty.cpp" />
+    <ClCompile Include="miningareaobject.cpp" />
+    <ClCompile Include="miningareaproperty.cpp" />
+    <ClCompile Include="modelobject.cpp" />
+    <ClCompile Include="jiancemodelproperty.cpp" />
+    <ClCompile Include="modelproperty.cpp" />
+    <ClCompile Include="terraneobject.cpp" />
+    <ClCompile Include="terraneproperty.cpp" />
+    <ClCompile Include="workingplaneobject.cpp" />
+    <ClCompile Include="workingplaneproperty.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

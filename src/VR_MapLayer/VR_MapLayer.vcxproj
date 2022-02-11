@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E422EA5E-797A-4CA1-B0D4-C373071B9EE3}</ProjectGuid>
+    <Keyword>Qt4VSv1.0</Keyword>
+    <SccProjectName>Svn</SccProjectName>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)\bin\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)\bin\$(Configuration)\</OutDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectName)_d</TargetName>
+    <ReferencePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ReferencePath)</ReferencePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>UNICODE;WIN32;QT_DLL;QT_CORE_LIB;VR_MAPLAYER_DLLEXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\GeneratedFiles;.;E:\VS2010\QT4.8.6\QT-4.8.6install\include;.\GeneratedFiles\$(ConfigurationName);E:\VS2010\QT4.8.6\QT-4.8.6install\include\QtCore;$(SolutionDir)\jni\include;$(SolutionDir)\jni\include\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Disabled</Optimization>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>$(OutDir)\$(ProjectName)_d.dll</OutputFile>
+      <AdditionalLibraryDirectories>E:\VS2010\QT4.8.6\QT-4.8.6install\lib;$(OutDir);$(SolutionDir)\jni\lib\boost;$(SolutionDir)\jni\lib\ogre\debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>E:\VS2010\QT4.8.6\QT-4.8.6install\lib\qtmaind.lib;E:\VS2010\QT4.8.6\QT-4.8.6install\lib\QtCored4.lib;E:\VS2010\QT4.8.6\QT-4.8.6install\lib\QtDesignerd4.lib;E:\VS2010\QT4.8.6\QT-4.8.6install\lib\QtGuid4.lib;E:\VS2010\QT4.8.6\QT-4.8.6install\lib\QtXmld4.lib;VR_Core_d.lib;OgreMain_d.lib;VR_Geometry_d.lib;VR_Style_d.lib;VR_DatabaseEngine_d.lib;VR_SqliteDatabase_d.lib;VR_SpatialLayer_d.lib;VR_SpatialObject_d.lib;VR_Utility_d.lib;VR_SpatialInterface_d.lib;Bang_DatabaseEngine_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>UNICODE;WIN32;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;VR_MAPLAYER_DLLEXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\GeneratedFiles;.;E:\VS2010\QT4.8.6\QT-4.8.6install\include;.\GeneratedFiles\$(ConfigurationName);E:\VS2010\QT4.8.6\QT-4.8.6install\include\QtCore;$(SolutionDir)\jni\include;$(SolutionDir)\jni\include\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <Optimization>Full</Optimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>$(OutDir)\$(ProjectName).dll</OutputFile>
+      <AdditionalLibraryDirectories>E:\VS2010\QT4.8.6\QT-4.8.6install\lib;$(OutDir);$(SolutionDir)\jni\lib\boost;$(SolutionDir)\jni\lib\ogre\release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <AdditionalDependencies>E:\VS2010\QT4.8.6\QT-4.8.6install\lib\qtmain.lib;E:\VS2010\QT4.8.6\QT-4.8.6install\lib\QtCore4.lib;E:\VS2010\QT4.8.6\QT-4.8.6install\lib\QtDesigner4.lib;E:\VS2010\QT4.8.6\QT-4.8.6install\lib\QtGui4.lib;E:\VS2010\QT4.8.6\QT-4.8.6install\lib\QtXml4.lib;VR_Core.lib;OgreMain.lib;VR_Geometry.lib;VR_Style.lib;VR_SpatialInterface.lib;VRSceneTreeWidget.lib;VR_DatabaseEngine.lib;VR_SqliteDatabase.lib;VR_SpatialLayer.lib;VR_SpatialObject.lib;VR_Utility.lib;Bang_DatabaseEngine.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\vrmine\vr_maplayer\arcdrawitem.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_maplayer\bangprojectmanager.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_maplayer\circledrawitem.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_maplayer\complexlayer.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_maplayer\ellipse.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_maplayer\ellipsedrawitem.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_maplayer\idrawobject.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_maplayer\igeometrydrawitem.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_maplayer\line2D.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_maplayer\linedrawitem.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_maplayer\map.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_maplayer\map2dlayer.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_maplayer\point2D.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_maplayer\pointdrawitem.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_maplayer\pointlayer.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_maplayer\polygondrawitem.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_maplayer\polygonlayer.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_maplayer\polylinelayer.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_maplayer\rectangle.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_maplayer\rectangledrawitem.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_maplayer\rocklayer2D.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_maplayer\shapeitem.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_maplayer\shotholelayer.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_maplayer\textDrawItem.h" />
+    <ClInclude Include="..\..\include\vrmine\vr_maplayer\vr_maplayer_global.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="arcdrawitem.cpp" />
+    <ClCompile Include="bangprojectmanager.cpp" />
+    <ClCompile Include="ellipse.cpp" />
+    <ClCompile Include="idrawobject.cpp" />
+    <ClCompile Include="igeometrydrawitem.cpp" />
+    <ClCompile Include="line2D.cpp" />
+    <ClCompile Include="linedrawitem.cpp" />
+    <ClCompile Include="map.cpp" />
+    <ClCompile Include="map2dlayer.cpp" />
+    <ClCompile Include="point2D.cpp" />
+    <ClCompile Include="pointdrawitem.cpp" />
+    <ClCompile Include="pointlayer.cpp" />
+    <ClCompile Include="polylinelayer.cpp" />
+    <ClCompile Include="rectangle.cpp" />
+    <ClCompile Include="rocklayer2D.cpp" />
+    <ClCompile Include="shapeitem.cpp" />
+    <ClCompile Include="shotholelayer.cpp" />
+    <ClCompile Include="textDrawItem.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties UicDir=".\GeneratedFiles" MocDir=".\GeneratedFiles\$(ConfigurationName)" MocOptions="" RccDir=".\GeneratedFiles" lupdateOnBuild="0" lupdateOptions="" lreleaseOptions="" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
